@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34 # v5
         with:
           go-version-file: go.mod
       - name: Install go-junit-report
@@ -24,6 +24,6 @@ jobs:
         run: go test -json ./... 2>&1 | go-junit-report -set-exit-code -parser gojson -iocopy -out report.xml
       - name: Test Summary
         if: always()
-        uses: test-summary/action@v2
+        uses: test-summary/action@31493c76ec9e7aa675f1585d3ed6f1da69269a86 # v2
         with:
           paths: report.xml
