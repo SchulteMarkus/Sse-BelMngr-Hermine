@@ -1,0 +1,108 @@
+package hermine
+
+import (
+	"encoding/csv"
+	"fmt"
+	log "github.com/sirupsen/logrus"
+	"os"
+	"path/filepath"
+	"strconv"
+	"time"
+)
+
+type processingDoneData struct {
+	pathOfFileToImport string
+	beleg              *bmDocBeleg
+	doc                *diDocument
+}
+
+func (pdd processingDoneData) toCsvLogRow() []string {
+	logRow := []string{pdd.pathOfFileToImport}
+
+	belegAsCsvLog := belegToCsvLog(pdd.beleg)
+	logRow = append(logRow, belegAsCsvLog...)
+
+	docAsCsvLog := diDocumentToCsvLog(pdd.doc)
+	logRow = append(logRow, docAsCsvLog...)
+
+	return logRow
+}
+
+func logToCsv(belegManagerDirectory *os.File, pdds []*processingDoneData) {
+	csvLogFileName := fmt.Sprintf("_import-log-%s.csv", time.Now().Format(flatDateTime))
+	csvLogFilePath := filepath.Join(belegManagerDirectory.Name(), csvLogFileName)
+	csvLogFile, openCsvFileErr := os.Create(csvLogFilePath)
+	if openCsvFileErr != nil {
+		log.WithError(openCsvFileErr).Warnf("Failed to open CSV log file %s", csvLogFilePath)
+		return
+	}
+	defer func() {
+		if err := csvLogFile.Close(); err != nil {
+			log.WithError(err).Debugf("Failed to close CSV log file %s", csvLogFilePath)
+		}
+	}()
+
+	writeToCsvLog(csvLogFile, pdds)
+}
+
+func writeToCsvLog(csvLogFile *os.File, pdds []*processingDoneData) {
+	csvLogFileWriter := csv.NewWriter(csvLogFile)
+	defer csvLogFileWriter.Flush()
+
+	csvHeaders := []string{"OriginalPath", "BelegID", "BelegName", "BelegDate", "BelegAmount", "DocGross", "DocGrossConfidence", "DocVat"}
+	if writeHeadersErr := csvLogFileWriter.Write(csvHeaders); writeHeadersErr != nil {
+		log.WithError(writeHeadersErr).Warn("Failed to write CSV headers")
+	}
+
+	for _, pdd := range pdds {
+		row := pdd.toCsvLogRow()
+		if writeRowErr := csvLogFileWriter.Write(row); writeRowErr != nil {
+			log.WithError(writeRowErr).Warnf("Failed to write row to CSV file %s", csvLogFile.Name())
+		}
+	}
+
+	log.Infof("Wrote CSV log file %s", csvLogFile.Name())
+}
+
+func belegToCsvLog(beleg *bmDocBeleg) []string {
+	if beleg == nil {
+		return []string{"", "", "", ""}
+	}
+
+	return []string{
+		strconv.FormatUint(uint64(beleg.ID), 10),
+		beleg.Name,
+		*beleg.BelegDate,
+		convertFloatPointerToString(beleg.Amount),
+	}
+}
+
+func diDocumentToCsvLog(d *diDocument) []string {
+	if d == nil {
+		return []string{"", "", ""}
+	}
+
+	return []string{
+		convertFloatPointerToString(d.getGross()),
+		convertFloatPointerToString(d.getGrossConfidence()),
+		convertFloatPointerToString(d.getVat()),
+	}
+}
+
+func convertFloatPointerToString(value *float64) string {
+	if value != nil {
+		return fmt.Sprintf("%.2f", *value)
+	}
+
+	return ""
+}
+
+func diDocumentIsTypeInvoice(logger *log.Entry, d diDocument) error {
+	if !d.isTypeInvoice() {
+		err := fmt.Errorf("not an invoice, but %s", d.DocType)
+		logger.WithError(err).Debug()
+		return err
+	}
+
+	return nil
+}

@@ -1,0 +1,2 @@
+- "Azure DI example english invoice.png" is an example from "Azure AI | Document Intelligence Studio" https://documentintelligence.ai.azure.com/studio
+-- "di_result.json" is a corresponding DI analysis.

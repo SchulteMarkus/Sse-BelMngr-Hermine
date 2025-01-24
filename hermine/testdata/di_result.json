@@ -1,0 +1,7023 @@
+{
+  "status": "succeeded",
+  "createdDateTime": "2024-12-19T11:00:12Z",
+  "lastUpdatedDateTime": "2024-12-19T11:00:13Z",
+  "analyzeResult": {
+    "apiVersion": "2024-11-30",
+    "modelId": "prebuilt-invoice",
+    "stringIndexType": "utf16CodeUnit",
+    "content": "9871230456\nCONTOSO\nINVOICE\nTHE CONTOSO COMPANY | BRITAIN\n123 OXFORD STREET, LONDON WID 2HZ, UK\nMICROSOFT LTD\nNUMBER:\n654123\nMicrosoft UK Campus\nDATE:\n15/01/2023\nThames Valley Park\nACCOUNT NO:\nMSFT987\nReading\nINTERNAL REF:\nBerkshire\nRG6 1WG\nBank Details:\nBARCLAYS PLC, 1 Churchill place, London, E14 5HP\nAccount Name:\nThe Contoso Company Ltd\nSort Code:\n20-20-15\nAccount No\n55555555\nBIC/SWIFT ID\nBUKBGB22\nClient:\nMICROSOFT\nIBAN\nGB33BUKB20201555555555\nCampaign:\n987321\nTo pay by credit/debit card please call the\ncontact number below\nQTY DESCRIPTION\nGross\nDiscount\nNet GBP\n1\nMICROSOFT AND CONTONSO PARTNERSHIP PROMOTION\n98,765.00\n125.00\n98,640.00\nVIDEO\nPO 99881234\nAgency Discount @ 0%\n0.00\nNet\n98,640.00\nPrepayment Discount @ 0%\n0.00\nVAT@ 20%\n19,728.00\nSeries Discount @ 0%\n0.00\nGBP TOTAL\n118,368.00\nClient Discount @ 0%\n0.00\nGBP DISCOUNT TOTAL\n125.00\nVAT number GB012345678\nTo pay by credit/debit card or for any payment queries please contact Credit Control on 020 1234 4567 or\nPage:\n1/1\nIf paying by BACS, please email a remittance to: remitance@contoso.com\nTERMS OF PAYMENT: 30 days from date of invoice.\nRegistered in England No. 998800. Registered Office: The Contoso Company, 123 Oxford street, London W1D 2HZ",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0.0339815616607666,
+        "width": 2480,
+        "height": 3506,
+        "unit": "pixel",
+        "words": [
+          {
+            "content": "9871230456",
+            "polygon": [
+              11,
+              11,
+              477,
+              11,
+              477,
+              84,
+              11,
+              85
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 0,
+              "length": 10
+            }
+          },
+          {
+            "content": "CONTOSO",
+            "polygon": [
+              242,
+              93,
+              1085,
+              90,
+              1085,
+              189,
+              242,
+              187
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 11,
+              "length": 7
+            }
+          },
+          {
+            "content": "INVOICE",
+            "polygon": [
+              1564,
+              88,
+              1945,
+              86,
+              1945,
+              168,
+              1564,
+              168
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 19,
+              "length": 7
+            }
+          },
+          {
+            "content": "THE",
+            "polygon": [
+              254,
+              199,
+              337,
+              199,
+              337,
+              227,
+              254,
+              226
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 27,
+              "length": 3
+            }
+          },
+          {
+            "content": "CONTOSO",
+            "polygon": [
+              371,
+              199,
+              582,
+              199,
+              582,
+              227,
+              371,
+              227
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 31,
+              "length": 7
+            }
+          },
+          {
+            "content": "COMPANY",
+            "polygon": [
+              616,
+              199,
+              830,
+              199,
+              830,
+              227,
+              616,
+              227
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 39,
+              "length": 7
+            }
+          },
+          {
+            "content": "|",
+            "polygon": [
+              844,
+              199,
+              847,
+              199,
+              847,
+              227,
+              844,
+              227
+            ],
+            "confidence": 0.797,
+            "span": {
+              "offset": 47,
+              "length": 1
+            }
+          },
+          {
+            "content": "BRITAIN",
+            "polygon": [
+              880,
+              199,
+              1069,
+              198,
+              1069,
+              227,
+              880,
+              227
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 49,
+              "length": 7
+            }
+          },
+          {
+            "content": "123",
+            "polygon": [
+              257,
+              236,
+              307,
+              236,
+              307,
+              264,
+              257,
+              264
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 57,
+              "length": 3
+            }
+          },
+          {
+            "content": "OXFORD",
+            "polygon": [
+              330,
+              236,
+              474,
+              236,
+              474,
+              264,
+              330,
+              264
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 61,
+              "length": 6
+            }
+          },
+          {
+            "content": "STREET,",
+            "polygon": [
+              496,
+              236,
+              638,
+              236,
+              638,
+              264,
+              496,
+              264
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 68,
+              "length": 7
+            }
+          },
+          {
+            "content": "LONDON",
+            "polygon": [
+              660,
+              236,
+              806,
+              236,
+              806,
+              264,
+              660,
+              264
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 76,
+              "length": 6
+            }
+          },
+          {
+            "content": "WID",
+            "polygon": [
+              826,
+              236,
+              897,
+              236,
+              897,
+              264,
+              826,
+              264
+            ],
+            "confidence": 0.582,
+            "span": {
+              "offset": 83,
+              "length": 3
+            }
+          },
+          {
+            "content": "2HZ,",
+            "polygon": [
+              918,
+              236,
+              993,
+              235,
+              993,
+              264,
+              918,
+              264
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 87,
+              "length": 4
+            }
+          },
+          {
+            "content": "UK",
+            "polygon": [
+              1015,
+              235,
+              1063,
+              236,
+              1063,
+              264,
+              1015,
+              264
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 92,
+              "length": 2
+            }
+          },
+          {
+            "content": "MICROSOFT",
+            "polygon": [
+              306,
+              387,
+              557,
+              387,
+              557,
+              428,
+              306,
+              428
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 95,
+              "length": 9
+            }
+          },
+          {
+            "content": "LTD",
+            "polygon": [
+              571,
+              387,
+              649,
+              387,
+              649,
+              428,
+              571,
+              428
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 105,
+              "length": 3
+            }
+          },
+          {
+            "content": "NUMBER:",
+            "polygon": [
+              1604,
+              377,
+              1767,
+              377,
+              1767,
+              409,
+              1604,
+              408
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 109,
+              "length": 7
+            }
+          },
+          {
+            "content": "654123",
+            "polygon": [
+              1931,
+              377,
+              2042,
+              377,
+              2042,
+              409,
+              1931,
+              409
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 117,
+              "length": 6
+            }
+          },
+          {
+            "content": "Microsoft",
+            "polygon": [
+              306,
+              435,
+              476,
+              436,
+              475,
+              477,
+              306,
+              475
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 124,
+              "length": 9
+            }
+          },
+          {
+            "content": "UK",
+            "polygon": [
+              490,
+              436,
+              545,
+              436,
+              545,
+              477,
+              490,
+              477
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 134,
+              "length": 2
+            }
+          },
+          {
+            "content": "Campus",
+            "polygon": [
+              559,
+              436,
+              714,
+              437,
+              714,
+              478,
+              558,
+              477
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 137,
+              "length": 6
+            }
+          },
+          {
+            "content": "DATE:",
+            "polygon": [
+              1606,
+              425,
+              1710,
+              424,
+              1710,
+              456,
+              1606,
+              456
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 144,
+              "length": 5
+            }
+          },
+          {
+            "content": "15/01/2023",
+            "polygon": [
+              1933,
+              425,
+              2095,
+              425,
+              2095,
+              457,
+              1933,
+              457
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 150,
+              "length": 10
+            }
+          },
+          {
+            "content": "Thames",
+            "polygon": [
+              307,
+              482,
+              458,
+              482,
+              458,
+              523,
+              307,
+              522
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 161,
+              "length": 6
+            }
+          },
+          {
+            "content": "Valley",
+            "polygon": [
+              470,
+              482,
+              582,
+              482,
+              582,
+              524,
+              470,
+              523
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 168,
+              "length": 6
+            }
+          },
+          {
+            "content": "Park",
+            "polygon": [
+              598,
+              482,
+              684,
+              482,
+              684,
+              523,
+              598,
+              524
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 175,
+              "length": 4
+            }
+          },
+          {
+            "content": "ACCOUNT",
+            "polygon": [
+              1606,
+              471,
+              1773,
+              471,
+              1773,
+              503,
+              1606,
+              503
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 180,
+              "length": 7
+            }
+          },
+          {
+            "content": "NO:",
+            "polygon": [
+              1782,
+              471,
+              1846,
+              471,
+              1846,
+              503,
+              1782,
+              503
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 188,
+              "length": 3
+            }
+          },
+          {
+            "content": "MSFT987",
+            "polygon": [
+              1933,
+              471,
+              2078,
+              471,
+              2078,
+              503,
+              1932,
+              503
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 192,
+              "length": 7
+            }
+          },
+          {
+            "content": "Reading",
+            "polygon": [
+              308,
+              528,
+              463,
+              530,
+              463,
+              571,
+              308,
+              569
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 200,
+              "length": 7
+            }
+          },
+          {
+            "content": "INTERNAL",
+            "polygon": [
+              1601,
+              513,
+              1772,
+              513,
+              1772,
+              545,
+              1601,
+              545
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 208,
+              "length": 8
+            }
+          },
+          {
+            "content": "REF:",
+            "polygon": [
+              1784,
+              513,
+              1860,
+              513,
+              1860,
+              546,
+              1784,
+              545
+            ],
+            "confidence": 0.982,
+            "span": {
+              "offset": 217,
+              "length": 4
+            }
+          },
+          {
+            "content": "Berkshire",
+            "polygon": [
+              307,
+              575,
+              486,
+              576,
+              486,
+              615,
+              307,
+              614
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 222,
+              "length": 9
+            }
+          },
+          {
+            "content": "RG6",
+            "polygon": [
+              308,
+              666,
+              392,
+              667,
+              392,
+              707,
+              308,
+              707
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 232,
+              "length": 3
+            }
+          },
+          {
+            "content": "1WG",
+            "polygon": [
+              408,
+              667,
+              502,
+              667,
+              502,
+              707,
+              408,
+              707
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 236,
+              "length": 3
+            }
+          },
+          {
+            "content": "Bank",
+            "polygon": [
+              1405,
+              645,
+              1482,
+              645,
+              1482,
+              678,
+              1405,
+              677
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 240,
+              "length": 4
+            }
+          },
+          {
+            "content": "Details:",
+            "polygon": [
+              1493,
+              645,
+              1605,
+              645,
+              1605,
+              678,
+              1493,
+              678
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 245,
+              "length": 8
+            }
+          },
+          {
+            "content": "BARCLAYS",
+            "polygon": [
+              1404,
+              695,
+              1577,
+              695,
+              1577,
+              733,
+              1404,
+              731
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 254,
+              "length": 8
+            }
+          },
+          {
+            "content": "PLC,",
+            "polygon": [
+              1590,
+              695,
+              1659,
+              695,
+              1658,
+              733,
+              1590,
+              733
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 263,
+              "length": 4
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [
+              1673,
+              695,
+              1683,
+              695,
+              1683,
+              733,
+              1673,
+              733
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 268,
+              "length": 1
+            }
+          },
+          {
+            "content": "Churchill",
+            "polygon": [
+              1698,
+              695,
+              1822,
+              695,
+              1822,
+              733,
+              1698,
+              733
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 270,
+              "length": 9
+            }
+          },
+          {
+            "content": "place,",
+            "polygon": [
+              1834,
+              695,
+              1917,
+              695,
+              1917,
+              733,
+              1834,
+              733
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 280,
+              "length": 6
+            }
+          },
+          {
+            "content": "London,",
+            "polygon": [
+              1931,
+              695,
+              2043,
+              694,
+              2043,
+              733,
+              1931,
+              733
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 287,
+              "length": 7
+            }
+          },
+          {
+            "content": "E14",
+            "polygon": [
+              2057,
+              695,
+              2112,
+              694,
+              2112,
+              732,
+              2057,
+              733
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 295,
+              "length": 3
+            }
+          },
+          {
+            "content": "5HP",
+            "polygon": [
+              2123,
+              694,
+              2187,
+              694,
+              2187,
+              732,
+              2123,
+              732
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 299,
+              "length": 3
+            }
+          },
+          {
+            "content": "Account",
+            "polygon": [
+              1403,
+              764,
+              1524,
+              765,
+              1524,
+              797,
+              1403,
+              796
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 303,
+              "length": 7
+            }
+          },
+          {
+            "content": "Name:",
+            "polygon": [
+              1535,
+              765,
+              1633,
+              765,
+              1633,
+              797,
+              1535,
+              797
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 311,
+              "length": 5
+            }
+          },
+          {
+            "content": "The",
+            "polygon": [
+              1707,
+              762,
+              1763,
+              763,
+              1763,
+              798,
+              1707,
+              797
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 317,
+              "length": 3
+            }
+          },
+          {
+            "content": "Contoso",
+            "polygon": [
+              1774,
+              763,
+              1894,
+              763,
+              1894,
+              798,
+              1774,
+              798
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 321,
+              "length": 7
+            }
+          },
+          {
+            "content": "Company",
+            "polygon": [
+              1905,
+              763,
+              2043,
+              763,
+              2043,
+              799,
+              1905,
+              798
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 329,
+              "length": 7
+            }
+          },
+          {
+            "content": "Ltd",
+            "polygon": [
+              2055,
+              763,
+              2101,
+              763,
+              2101,
+              799,
+              2055,
+              799
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 337,
+              "length": 3
+            }
+          },
+          {
+            "content": "Sort",
+            "polygon": [
+              1403,
+              812,
+              1464,
+              812,
+              1464,
+              844,
+              1403,
+              844
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 341,
+              "length": 4
+            }
+          },
+          {
+            "content": "Code:",
+            "polygon": [
+              1475,
+              812,
+              1565,
+              812,
+              1565,
+              845,
+              1475,
+              844
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 346,
+              "length": 5
+            }
+          },
+          {
+            "content": "20-20-15",
+            "polygon": [
+              1710,
+              810,
+              1844,
+              809,
+              1844,
+              841,
+              1710,
+              841
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 352,
+              "length": 8
+            }
+          },
+          {
+            "content": "Account",
+            "polygon": [
+              1403,
+              859,
+              1524,
+              859,
+              1524,
+              891,
+              1403,
+              891
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 361,
+              "length": 7
+            }
+          },
+          {
+            "content": "No",
+            "polygon": [
+              1535,
+              859,
+              1577,
+              859,
+              1577,
+              892,
+              1535,
+              891
+            ],
+            "confidence": 0.98,
+            "span": {
+              "offset": 369,
+              "length": 2
+            }
+          },
+          {
+            "content": "55555555",
+            "polygon": [
+              1708,
+              858,
+              1856,
+              857,
+              1856,
+              890,
+              1708,
+              890
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 372,
+              "length": 8
+            }
+          },
+          {
+            "content": "BIC/SWIFT",
+            "polygon": [
+              1403,
+              906,
+              1571,
+              907,
+              1571,
+              940,
+              1403,
+              940
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 381,
+              "length": 9
+            }
+          },
+          {
+            "content": "ID",
+            "polygon": [
+              1583,
+              907,
+              1615,
+              906,
+              1615,
+              940,
+              1583,
+              940
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 391,
+              "length": 2
+            }
+          },
+          {
+            "content": "BUKBGB22",
+            "polygon": [
+              1709,
+              904,
+              1886,
+              904,
+              1886,
+              936,
+              1709,
+              936
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 394,
+              "length": 8
+            }
+          },
+          {
+            "content": "Client:",
+            "polygon": [
+              284,
+              962,
+              382,
+              962,
+              382,
+              994,
+              284,
+              994
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 403,
+              "length": 7
+            }
+          },
+          {
+            "content": "MICROSOFT",
+            "polygon": [
+              569,
+              961,
+              772,
+              960,
+              772,
+              994,
+              569,
+              994
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 411,
+              "length": 9
+            }
+          },
+          {
+            "content": "IBAN",
+            "polygon": [
+              1403,
+              954,
+              1484,
+              955,
+              1484,
+              986,
+              1402,
+              985
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 421,
+              "length": 4
+            }
+          },
+          {
+            "content": "GB33BUKB20201555555555",
+            "polygon": [
+              1710,
+              954,
+              2140,
+              952,
+              2140,
+              986,
+              1710,
+              987
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 426,
+              "length": 22
+            }
+          },
+          {
+            "content": "Campaign:",
+            "polygon": [
+              284,
+              1006,
+              450,
+              1007,
+              450,
+              1044,
+              284,
+              1043
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 449,
+              "length": 9
+            }
+          },
+          {
+            "content": "987321",
+            "polygon": [
+              570,
+              1004,
+              678,
+              1004,
+              678,
+              1035,
+              569,
+              1035
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 459,
+              "length": 6
+            }
+          },
+          {
+            "content": "To",
+            "polygon": [
+              1419,
+              1049,
+              1461,
+              1049,
+              1461,
+              1094,
+              1419,
+              1094
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 466,
+              "length": 2
+            }
+          },
+          {
+            "content": "pay",
+            "polygon": [
+              1471,
+              1049,
+              1543,
+              1049,
+              1543,
+              1094,
+              1470,
+              1094
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 469,
+              "length": 3
+            }
+          },
+          {
+            "content": "by",
+            "polygon": [
+              1558,
+              1049,
+              1599,
+              1049,
+              1599,
+              1093,
+              1558,
+              1094
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 473,
+              "length": 2
+            }
+          },
+          {
+            "content": "credit/debit",
+            "polygon": [
+              1613,
+              1049,
+              1815,
+              1049,
+              1815,
+              1093,
+              1613,
+              1093
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 476,
+              "length": 12
+            }
+          },
+          {
+            "content": "card",
+            "polygon": [
+              1828,
+              1049,
+              1907,
+              1049,
+              1907,
+              1093,
+              1827,
+              1093
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 489,
+              "length": 4
+            }
+          },
+          {
+            "content": "please",
+            "polygon": [
+              1933,
+              1049,
+              2052,
+              1049,
+              2052,
+              1092,
+              1933,
+              1093
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 494,
+              "length": 6
+            }
+          },
+          {
+            "content": "call",
+            "polygon": [
+              2066,
+              1049,
+              2126,
+              1049,
+              2126,
+              1092,
+              2066,
+              1092
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 501,
+              "length": 4
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              2138,
+              1049,
+              2201,
+              1049,
+              2201,
+              1092,
+              2138,
+              1092
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 506,
+              "length": 3
+            }
+          },
+          {
+            "content": "contact",
+            "polygon": [
+              1601,
+              1098,
+              1737,
+              1098,
+              1737,
+              1136,
+              1601,
+              1136
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 510,
+              "length": 7
+            }
+          },
+          {
+            "content": "number",
+            "polygon": [
+              1753,
+              1098,
+              1890,
+              1097,
+              1890,
+              1136,
+              1753,
+              1136
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 518,
+              "length": 6
+            }
+          },
+          {
+            "content": "below",
+            "polygon": [
+              1903,
+              1097,
+              2013,
+              1096,
+              2013,
+              1136,
+              1903,
+              1136
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 525,
+              "length": 5
+            }
+          },
+          {
+            "content": "QTY",
+            "polygon": [
+              234,
+              1199,
+              302,
+              1198,
+              302,
+              1233,
+              234,
+              1233
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 531,
+              "length": 3
+            }
+          },
+          {
+            "content": "DESCRIPTION",
+            "polygon": [
+              340,
+              1198,
+              567,
+              1199,
+              567,
+              1233,
+              340,
+              1233
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 535,
+              "length": 11
+            }
+          },
+          {
+            "content": "Gross",
+            "polygon": [
+              1542,
+              1201,
+              1642,
+              1202,
+              1642,
+              1233,
+              1542,
+              1232
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 547,
+              "length": 5
+            }
+          },
+          {
+            "content": "Discount",
+            "polygon": [
+              1756,
+              1200,
+              1903,
+              1201,
+              1903,
+              1233,
+              1756,
+              1232
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 553,
+              "length": 8
+            }
+          },
+          {
+            "content": "Net",
+            "polygon": [
+              2013,
+              1201,
+              2070,
+              1201,
+              2070,
+              1232,
+              2013,
+              1232
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 562,
+              "length": 3
+            }
+          },
+          {
+            "content": "GBP",
+            "polygon": [
+              2081,
+              1201,
+              2155,
+              1200,
+              2155,
+              1232,
+              2081,
+              1232
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 566,
+              "length": 3
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [
+              259,
+              1267,
+              277,
+              1266,
+              277,
+              1292,
+              259,
+              1293
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 570,
+              "length": 1
+            }
+          },
+          {
+            "content": "MICROSOFT",
+            "polygon": [
+              307,
+              1264,
+              507,
+              1264,
+              507,
+              1300,
+              307,
+              1299
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 572,
+              "length": 9
+            }
+          },
+          {
+            "content": "AND",
+            "polygon": [
+              514,
+              1264,
+              582,
+              1264,
+              582,
+              1300,
+              514,
+              1300
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 582,
+              "length": 3
+            }
+          },
+          {
+            "content": "CONTONSO",
+            "polygon": [
+              595,
+              1264,
+              783,
+              1264,
+              783,
+              1299,
+              594,
+              1300
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 586,
+              "length": 8
+            }
+          },
+          {
+            "content": "PARTNERSHIP",
+            "polygon": [
+              796,
+              1264,
+              1025,
+              1264,
+              1024,
+              1299,
+              796,
+              1299
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 595,
+              "length": 11
+            }
+          },
+          {
+            "content": "PROMOTION",
+            "polygon": [
+              1036,
+              1264,
+              1240,
+              1264,
+              1240,
+              1300,
+              1036,
+              1299
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 607,
+              "length": 9
+            }
+          },
+          {
+            "content": "98,765.00",
+            "polygon": [
+              1488,
+              1266,
+              1636,
+              1266,
+              1636,
+              1299,
+              1488,
+              1300
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 617,
+              "length": 9
+            }
+          },
+          {
+            "content": "125.00",
+            "polygon": [
+              1806,
+              1267,
+              1906,
+              1267,
+              1906,
+              1298,
+              1806,
+              1298
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 627,
+              "length": 6
+            }
+          },
+          {
+            "content": "98,640.00",
+            "polygon": [
+              2028,
+              1267,
+              2176,
+              1266,
+              2176,
+              1299,
+              2028,
+              1299
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 634,
+              "length": 9
+            }
+          },
+          {
+            "content": "VIDEO",
+            "polygon": [
+              307,
+              1305,
+              413,
+              1305,
+              413,
+              1336,
+              307,
+              1336
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 644,
+              "length": 5
+            }
+          },
+          {
+            "content": "PO",
+            "polygon": [
+              308,
+              1344,
+              356,
+              1343,
+              355,
+              1376,
+              308,
+              1376
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 650,
+              "length": 2
+            }
+          },
+          {
+            "content": "99881234",
+            "polygon": [
+              367,
+              1343,
+              512,
+              1344,
+              512,
+              1377,
+              366,
+              1376
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 653,
+              "length": 8
+            }
+          },
+          {
+            "content": "Agency",
+            "polygon": [
+              240,
+              2657,
+              353,
+              2657,
+              353,
+              2693,
+              240,
+              2694
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 662,
+              "length": 6
+            }
+          },
+          {
+            "content": "Discount",
+            "polygon": [
+              364,
+              2657,
+              491,
+              2656,
+              491,
+              2692,
+              364,
+              2693
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 669,
+              "length": 8
+            }
+          },
+          {
+            "content": "@",
+            "polygon": [
+              502,
+              2656,
+              533,
+              2656,
+              533,
+              2692,
+              502,
+              2692
+            ],
+            "confidence": 0.92,
+            "span": {
+              "offset": 678,
+              "length": 1
+            }
+          },
+          {
+            "content": "0%",
+            "polygon": [
+              544,
+              2656,
+              593,
+              2656,
+              593,
+              2691,
+              544,
+              2692
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 680,
+              "length": 2
+            }
+          },
+          {
+            "content": "0.00",
+            "polygon": [
+              1139,
+              2655,
+              1206,
+              2655,
+              1206,
+              2685,
+              1139,
+              2685
+            ],
+            "confidence": 0.99,
+            "span": {
+              "offset": 683,
+              "length": 4
+            }
+          },
+          {
+            "content": "Net",
+            "polygon": [
+              1607,
+              2658,
+              1663,
+              2658,
+              1663,
+              2687,
+              1607,
+              2687
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 688,
+              "length": 3
+            }
+          },
+          {
+            "content": "98,640.00",
+            "polygon": [
+              2006,
+              2656,
+              2153,
+              2656,
+              2153,
+              2690,
+              2006,
+              2690
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 692,
+              "length": 9
+            }
+          },
+          {
+            "content": "Prepayment",
+            "polygon": [
+              241,
+              2701,
+              420,
+              2701,
+              420,
+              2737,
+              241,
+              2738
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 702,
+              "length": 10
+            }
+          },
+          {
+            "content": "Discount",
+            "polygon": [
+              433,
+              2701,
+              560,
+              2700,
+              560,
+              2737,
+              433,
+              2737
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 713,
+              "length": 8
+            }
+          },
+          {
+            "content": "@",
+            "polygon": [
+              569,
+              2700,
+              600,
+              2700,
+              600,
+              2736,
+              569,
+              2737
+            ],
+            "confidence": 0.926,
+            "span": {
+              "offset": 722,
+              "length": 1
+            }
+          },
+          {
+            "content": "0%",
+            "polygon": [
+              613,
+              2700,
+              661,
+              2700,
+              661,
+              2736,
+              613,
+              2736
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 724,
+              "length": 2
+            }
+          },
+          {
+            "content": "0.00",
+            "polygon": [
+              1139,
+              2701,
+              1206,
+              2701,
+              1206,
+              2731,
+              1139,
+              2732
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 727,
+              "length": 4
+            }
+          },
+          {
+            "content": "VAT@",
+            "polygon": [
+              1608,
+              2699,
+              1707,
+              2700,
+              1707,
+              2733,
+              1609,
+              2733
+            ],
+            "confidence": 0.98,
+            "span": {
+              "offset": 732,
+              "length": 4
+            }
+          },
+          {
+            "content": "20%",
+            "polygon": [
+              1718,
+              2700,
+              1786,
+              2700,
+              1786,
+              2733,
+              1718,
+              2733
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 737,
+              "length": 3
+            }
+          },
+          {
+            "content": "19,728.00",
+            "polygon": [
+              2009,
+              2701,
+              2152,
+              2701,
+              2152,
+              2734,
+              2009,
+              2735
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 741,
+              "length": 9
+            }
+          },
+          {
+            "content": "Series",
+            "polygon": [
+              240,
+              2742,
+              335,
+              2742,
+              335,
+              2778,
+              240,
+              2778
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 751,
+              "length": 6
+            }
+          },
+          {
+            "content": "Discount",
+            "polygon": [
+              347,
+              2743,
+              474,
+              2743,
+              474,
+              2778,
+              347,
+              2778
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 758,
+              "length": 8
+            }
+          },
+          {
+            "content": "@",
+            "polygon": [
+              484,
+              2743,
+              515,
+              2743,
+              515,
+              2778,
+              483,
+              2778
+            ],
+            "confidence": 0.926,
+            "span": {
+              "offset": 767,
+              "length": 1
+            }
+          },
+          {
+            "content": "0%",
+            "polygon": [
+              527,
+              2743,
+              577,
+              2743,
+              577,
+              2778,
+              527,
+              2778
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 769,
+              "length": 2
+            }
+          },
+          {
+            "content": "0.00",
+            "polygon": [
+              1139,
+              2745,
+              1206,
+              2745,
+              1206,
+              2775,
+              1139,
+              2775
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 772,
+              "length": 4
+            }
+          },
+          {
+            "content": "GBP",
+            "polygon": [
+              1610,
+              2744,
+              1680,
+              2745,
+              1680,
+              2777,
+              1610,
+              2777
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 777,
+              "length": 3
+            }
+          },
+          {
+            "content": "TOTAL",
+            "polygon": [
+              1690,
+              2745,
+              1799,
+              2745,
+              1799,
+              2778,
+              1690,
+              2777
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 781,
+              "length": 5
+            }
+          },
+          {
+            "content": "118,368.00",
+            "polygon": [
+              1993,
+              2745,
+              2153,
+              2745,
+              2153,
+              2778,
+              1993,
+              2779
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 787,
+              "length": 10
+            }
+          },
+          {
+            "content": "Client",
+            "polygon": [
+              241,
+              2791,
+              326,
+              2791,
+              326,
+              2826,
+              241,
+              2826
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 798,
+              "length": 6
+            }
+          },
+          {
+            "content": "Discount",
+            "polygon": [
+              338,
+              2791,
+              465,
+              2791,
+              465,
+              2826,
+              338,
+              2826
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 805,
+              "length": 8
+            }
+          },
+          {
+            "content": "@",
+            "polygon": [
+              475,
+              2791,
+              506,
+              2791,
+              506,
+              2826,
+              475,
+              2826
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 814,
+              "length": 1
+            }
+          },
+          {
+            "content": "0%",
+            "polygon": [
+              519,
+              2791,
+              567,
+              2791,
+              567,
+              2826,
+              518,
+              2826
+            ],
+            "confidence": 0.95,
+            "span": {
+              "offset": 816,
+              "length": 2
+            }
+          },
+          {
+            "content": "0.00",
+            "polygon": [
+              1139,
+              2792,
+              1206,
+              2792,
+              1206,
+              2823,
+              1139,
+              2823
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 819,
+              "length": 4
+            }
+          },
+          {
+            "content": "GBP",
+            "polygon": [
+              506,
+              2850,
+              579,
+              2850,
+              579,
+              2884,
+              506,
+              2884
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 824,
+              "length": 3
+            }
+          },
+          {
+            "content": "DISCOUNT",
+            "polygon": [
+              592,
+              2850,
+              762,
+              2851,
+              762,
+              2885,
+              592,
+              2884
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 828,
+              "length": 8
+            }
+          },
+          {
+            "content": "TOTAL",
+            "polygon": [
+              772,
+              2851,
+              885,
+              2850,
+              885,
+              2885,
+              772,
+              2885
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 837,
+              "length": 5
+            }
+          },
+          {
+            "content": "125.00",
+            "polygon": [
+              1106,
+              2853,
+              1204,
+              2853,
+              1204,
+              2883,
+              1106,
+              2883
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 843,
+              "length": 6
+            }
+          },
+          {
+            "content": "VAT",
+            "polygon": [
+              1681,
+              2894,
+              1746,
+              2894,
+              1746,
+              2928,
+              1681,
+              2928
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 850,
+              "length": 3
+            }
+          },
+          {
+            "content": "number",
+            "polygon": [
+              1759,
+              2894,
+              1869,
+              2894,
+              1869,
+              2928,
+              1759,
+              2928
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 854,
+              "length": 6
+            }
+          },
+          {
+            "content": "GB012345678",
+            "polygon": [
+              1880,
+              2894,
+              2091,
+              2893,
+              2091,
+              2927,
+              1880,
+              2928
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 861,
+              "length": 11
+            }
+          },
+          {
+            "content": "To",
+            "polygon": [
+              249,
+              2972,
+              288,
+              2972,
+              288,
+              3011,
+              249,
+              3010
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 873,
+              "length": 2
+            }
+          },
+          {
+            "content": "pay",
+            "polygon": [
+              296,
+              2972,
+              358,
+              2972,
+              358,
+              3011,
+              296,
+              3011
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 876,
+              "length": 3
+            }
+          },
+          {
+            "content": "by",
+            "polygon": [
+              368,
+              2972,
+              407,
+              2972,
+              407,
+              3011,
+              368,
+              3011
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 880,
+              "length": 2
+            }
+          },
+          {
+            "content": "credit/debit",
+            "polygon": [
+              418,
+              2972,
+              596,
+              2972,
+              596,
+              3010,
+              418,
+              3011
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 883,
+              "length": 12
+            }
+          },
+          {
+            "content": "card",
+            "polygon": [
+              605,
+              2972,
+              674,
+              2972,
+              674,
+              3010,
+              605,
+              3010
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 896,
+              "length": 4
+            }
+          },
+          {
+            "content": "or",
+            "polygon": [
+              687,
+              2972,
+              717,
+              2972,
+              717,
+              3011,
+              687,
+              3010
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 901,
+              "length": 2
+            }
+          },
+          {
+            "content": "for",
+            "polygon": [
+              727,
+              2972,
+              771,
+              2972,
+              771,
+              3011,
+              727,
+              3011
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 904,
+              "length": 3
+            }
+          },
+          {
+            "content": "any",
+            "polygon": [
+              782,
+              2972,
+              835,
+              2972,
+              835,
+              3011,
+              782,
+              3011
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 908,
+              "length": 3
+            }
+          },
+          {
+            "content": "payment",
+            "polygon": [
+              842,
+              2972,
+              984,
+              2972,
+              984,
+              3011,
+              842,
+              3011
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 912,
+              "length": 7
+            }
+          },
+          {
+            "content": "queries",
+            "polygon": [
+              995,
+              2972,
+              1110,
+              2972,
+              1110,
+              3010,
+              995,
+              3011
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 920,
+              "length": 7
+            }
+          },
+          {
+            "content": "please",
+            "polygon": [
+              1122,
+              2972,
+              1226,
+              2972,
+              1226,
+              3010,
+              1122,
+              3010
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 928,
+              "length": 6
+            }
+          },
+          {
+            "content": "contact",
+            "polygon": [
+              1235,
+              2972,
+              1353,
+              2972,
+              1353,
+              3009,
+              1235,
+              3010
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 935,
+              "length": 7
+            }
+          },
+          {
+            "content": "Credit",
+            "polygon": [
+              1363,
+              2972,
+              1458,
+              2971,
+              1458,
+              3009,
+              1363,
+              3009
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 943,
+              "length": 6
+            }
+          },
+          {
+            "content": "Control",
+            "polygon": [
+              1469,
+              2971,
+              1586,
+              2971,
+              1586,
+              3009,
+              1469,
+              3009
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 950,
+              "length": 7
+            }
+          },
+          {
+            "content": "on",
+            "polygon": [
+              1597,
+              2971,
+              1635,
+              2971,
+              1635,
+              3009,
+              1597,
+              3009
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 958,
+              "length": 2
+            }
+          },
+          {
+            "content": "020",
+            "polygon": [
+              1654,
+              2971,
+              1708,
+              2971,
+              1708,
+              3009,
+              1654,
+              3009
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 961,
+              "length": 3
+            }
+          },
+          {
+            "content": "1234",
+            "polygon": [
+              1722,
+              2971,
+              1795,
+              2972,
+              1795,
+              3008,
+              1722,
+              3009
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 965,
+              "length": 4
+            }
+          },
+          {
+            "content": "4567",
+            "polygon": [
+              1806,
+              2972,
+              1880,
+              2972,
+              1880,
+              3008,
+              1806,
+              3008
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 970,
+              "length": 4
+            }
+          },
+          {
+            "content": "or",
+            "polygon": [
+              1888,
+              2972,
+              1921,
+              2972,
+              1921,
+              3008,
+              1888,
+              3008
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 975,
+              "length": 2
+            }
+          },
+          {
+            "content": "Page:",
+            "polygon": [
+              1982,
+              2975,
+              2073,
+              2976,
+              2073,
+              3008,
+              1982,
+              3007
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 978,
+              "length": 5
+            }
+          },
+          {
+            "content": "1/1",
+            "polygon": [
+              2174,
+              2974,
+              2219,
+              2973,
+              2219,
+              3003,
+              2174,
+              3004
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 984,
+              "length": 3
+            }
+          },
+          {
+            "content": "If",
+            "polygon": [
+              429,
+              3011,
+              449,
+              3011,
+              449,
+              3049,
+              429,
+              3049
+            ],
+            "confidence": 0.958,
+            "span": {
+              "offset": 988,
+              "length": 2
+            }
+          },
+          {
+            "content": "paying",
+            "polygon": [
+              456,
+              3010,
+              567,
+              3010,
+              567,
+              3049,
+              456,
+              3049
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 991,
+              "length": 6
+            }
+          },
+          {
+            "content": "by",
+            "polygon": [
+              580,
+              3010,
+              617,
+              3010,
+              617,
+              3049,
+              580,
+              3049
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 998,
+              "length": 2
+            }
+          },
+          {
+            "content": "BACS,",
+            "polygon": [
+              629,
+              3010,
+              727,
+              3010,
+              726,
+              3048,
+              629,
+              3049
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 1001,
+              "length": 5
+            }
+          },
+          {
+            "content": "please",
+            "polygon": [
+              734,
+              3010,
+              843,
+              3010,
+              843,
+              3048,
+              734,
+              3048
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 1007,
+              "length": 6
+            }
+          },
+          {
+            "content": "email",
+            "polygon": [
+              852,
+              3010,
+              936,
+              3010,
+              936,
+              3048,
+              852,
+              3048
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 1014,
+              "length": 5
+            }
+          },
+          {
+            "content": "a",
+            "polygon": [
+              948,
+              3010,
+              963,
+              3010,
+              963,
+              3047,
+              948,
+              3047
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 1020,
+              "length": 1
+            }
+          },
+          {
+            "content": "remittance",
+            "polygon": [
+              976,
+              3010,
+              1143,
+              3010,
+              1143,
+              3048,
+              976,
+              3047
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 1022,
+              "length": 10
+            }
+          },
+          {
+            "content": "to:",
+            "polygon": [
+              1151,
+              3010,
+              1193,
+              3010,
+              1193,
+              3048,
+              1151,
+              3048
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1033,
+              "length": 3
+            }
+          },
+          {
+            "content": "remitance@contoso.com",
+            "polygon": [
+              1206,
+              3010,
+              1595,
+              3011,
+              1595,
+              3047,
+              1206,
+              3048
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 1037,
+              "length": 21
+            }
+          },
+          {
+            "content": "TERMS",
+            "polygon": [
+              657,
+              3051,
+              776,
+              3050,
+              776,
+              3087,
+              657,
+              3086
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 1059,
+              "length": 5
+            }
+          },
+          {
+            "content": "OF",
+            "polygon": [
+              787,
+              3050,
+              833,
+              3051,
+              833,
+              3087,
+              787,
+              3087
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 1065,
+              "length": 2
+            }
+          },
+          {
+            "content": "PAYMENT:",
+            "polygon": [
+              844,
+              3051,
+              1014,
+              3051,
+              1014,
+              3088,
+              844,
+              3087
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 1068,
+              "length": 8
+            }
+          },
+          {
+            "content": "30",
+            "polygon": [
+              1027,
+              3051,
+              1061,
+              3051,
+              1061,
+              3088,
+              1027,
+              3088
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 1077,
+              "length": 2
+            }
+          },
+          {
+            "content": "days",
+            "polygon": [
+              1073,
+              3051,
+              1146,
+              3051,
+              1146,
+              3088,
+              1073,
+              3088
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 1080,
+              "length": 4
+            }
+          },
+          {
+            "content": "from",
+            "polygon": [
+              1156,
+              3051,
+              1228,
+              3052,
+              1229,
+              3088,
+              1156,
+              3088
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 1085,
+              "length": 4
+            }
+          },
+          {
+            "content": "date",
+            "polygon": [
+              1242,
+              3052,
+              1308,
+              3052,
+              1308,
+              3088,
+              1242,
+              3088
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1090,
+              "length": 4
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              1319,
+              3052,
+              1349,
+              3052,
+              1349,
+              3088,
+              1319,
+              3088
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 1095,
+              "length": 2
+            }
+          },
+          {
+            "content": "invoice.",
+            "polygon": [
+              1360,
+              3052,
+              1483,
+              3052,
+              1483,
+              3087,
+              1360,
+              3088
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 1098,
+              "length": 8
+            }
+          },
+          {
+            "content": "Registered",
+            "polygon": [
+              292,
+              3099,
+              449,
+              3099,
+              449,
+              3138,
+              292,
+              3137
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1107,
+              "length": 10
+            }
+          },
+          {
+            "content": "in",
+            "polygon": [
+              456,
+              3099,
+              488,
+              3099,
+              488,
+              3138,
+              456,
+              3138
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 1118,
+              "length": 2
+            }
+          },
+          {
+            "content": "England",
+            "polygon": [
+              500,
+              3099,
+              619,
+              3099,
+              618,
+              3138,
+              500,
+              3138
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 1121,
+              "length": 7
+            }
+          },
+          {
+            "content": "No.",
+            "polygon": [
+              633,
+              3099,
+              678,
+              3099,
+              678,
+              3138,
+              632,
+              3138
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 1129,
+              "length": 3
+            }
+          },
+          {
+            "content": "998800.",
+            "polygon": [
+              691,
+              3099,
+              804,
+              3099,
+              804,
+              3138,
+              691,
+              3138
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 1133,
+              "length": 7
+            }
+          },
+          {
+            "content": "Registered",
+            "polygon": [
+              818,
+              3099,
+              972,
+              3099,
+              972,
+              3138,
+              818,
+              3138
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1141,
+              "length": 10
+            }
+          },
+          {
+            "content": "Office:",
+            "polygon": [
+              984,
+              3099,
+              1076,
+              3099,
+              1076,
+              3138,
+              984,
+              3138
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1152,
+              "length": 7
+            }
+          },
+          {
+            "content": "The",
+            "polygon": [
+              1088,
+              3099,
+              1142,
+              3099,
+              1142,
+              3138,
+              1088,
+              3138
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 1160,
+              "length": 3
+            }
+          },
+          {
+            "content": "Contoso",
+            "polygon": [
+              1154,
+              3099,
+              1273,
+              3099,
+              1273,
+              3138,
+              1153,
+              3138
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 1164,
+              "length": 7
+            }
+          },
+          {
+            "content": "Company,",
+            "polygon": [
+              1284,
+              3099,
+              1426,
+              3099,
+              1426,
+              3138,
+              1284,
+              3138
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 1172,
+              "length": 8
+            }
+          },
+          {
+            "content": "123",
+            "polygon": [
+              1441,
+              3099,
+              1491,
+              3099,
+              1491,
+              3138,
+              1441,
+              3138
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 1181,
+              "length": 3
+            }
+          },
+          {
+            "content": "Oxford",
+            "polygon": [
+              1502,
+              3099,
+              1598,
+              3099,
+              1598,
+              3137,
+              1502,
+              3138
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 1185,
+              "length": 6
+            }
+          },
+          {
+            "content": "street,",
+            "polygon": [
+              1610,
+              3099,
+              1697,
+              3099,
+              1697,
+              3137,
+              1610,
+              3137
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1192,
+              "length": 7
+            }
+          },
+          {
+            "content": "London",
+            "polygon": [
+              1711,
+              3099,
+              1815,
+              3099,
+              1815,
+              3137,
+              1710,
+              3137
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 1200,
+              "length": 6
+            }
+          },
+          {
+            "content": "W1D",
+            "polygon": [
+              1826,
+              3099,
+              1897,
+              3099,
+              1897,
+              3136,
+              1826,
+              3137
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 1207,
+              "length": 3
+            }
+          },
+          {
+            "content": "2HZ",
+            "polygon": [
+              1909,
+              3099,
+              1974,
+              3098,
+              1974,
+              3136,
+              1909,
+              3136
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1211,
+              "length": 3
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "9871230456",
+            "polygon": [
+              10,
+              11,
+              476,
+              10,
+              477,
+              84,
+              11,
+              84
+            ],
+            "spans": [
+              {
+                "offset": 0,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "CONTOSO",
+            "polygon": [
+              242,
+              90,
+              1084,
+              90,
+              1084,
+              188,
+              242,
+              189
+            ],
+            "spans": [
+              {
+                "offset": 11,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "INVOICE",
+            "polygon": [
+              1564,
+              86,
+              1945,
+              86,
+              1945,
+              168,
+              1564,
+              168
+            ],
+            "spans": [
+              {
+                "offset": 19,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "THE CONTOSO COMPANY | BRITAIN",
+            "polygon": [
+              254,
+              199,
+              1068,
+              198,
+              1068,
+              227,
+              254,
+              227
+            ],
+            "spans": [
+              {
+                "offset": 27,
+                "length": 29
+              }
+            ]
+          },
+          {
+            "content": "123 OXFORD STREET, LONDON WID 2HZ, UK",
+            "polygon": [
+              257,
+              235,
+              1063,
+              235,
+              1063,
+              264,
+              257,
+              263
+            ],
+            "spans": [
+              {
+                "offset": 57,
+                "length": 37
+              }
+            ]
+          },
+          {
+            "content": "MICROSOFT LTD",
+            "polygon": [
+              306,
+              387,
+              648,
+              387,
+              648,
+              427,
+              306,
+              428
+            ],
+            "spans": [
+              {
+                "offset": 95,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "NUMBER:",
+            "polygon": [
+              1604,
+              376,
+              1766,
+              377,
+              1766,
+              408,
+              1604,
+              407
+            ],
+            "spans": [
+              {
+                "offset": 109,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "654123",
+            "polygon": [
+              1931,
+              377,
+              2042,
+              377,
+              2042,
+              408,
+              1931,
+              409
+            ],
+            "spans": [
+              {
+                "offset": 117,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Microsoft UK Campus",
+            "polygon": [
+              306,
+              435,
+              714,
+              437,
+              714,
+              478,
+              306,
+              475
+            ],
+            "spans": [
+              {
+                "offset": 124,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "content": "DATE:",
+            "polygon": [
+              1606,
+              424,
+              1710,
+              424,
+              1710,
+              455,
+              1606,
+              455
+            ],
+            "spans": [
+              {
+                "offset": 144,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "15/01/2023",
+            "polygon": [
+              1933,
+              425,
+              2095,
+              425,
+              2095,
+              457,
+              1933,
+              457
+            ],
+            "spans": [
+              {
+                "offset": 150,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "Thames Valley Park",
+            "polygon": [
+              307,
+              481,
+              683,
+              482,
+              683,
+              523,
+              307,
+              523
+            ],
+            "spans": [
+              {
+                "offset": 161,
+                "length": 18
+              }
+            ]
+          },
+          {
+            "content": "ACCOUNT NO:",
+            "polygon": [
+              1606,
+              471,
+              1845,
+              471,
+              1845,
+              503,
+              1606,
+              502
+            ],
+            "spans": [
+              {
+                "offset": 180,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "content": "MSFT987",
+            "polygon": [
+              1932,
+              471,
+              2077,
+              471,
+              2077,
+              502,
+              1932,
+              502
+            ],
+            "spans": [
+              {
+                "offset": 192,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "Reading",
+            "polygon": [
+              308,
+              528,
+              463,
+              530,
+              462,
+              571,
+              307,
+              568
+            ],
+            "spans": [
+              {
+                "offset": 200,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "INTERNAL REF:",
+            "polygon": [
+              1601,
+              512,
+              1860,
+              513,
+              1860,
+              545,
+              1601,
+              545
+            ],
+            "spans": [
+              {
+                "offset": 208,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "Berkshire",
+            "polygon": [
+              307,
+              575,
+              485,
+              576,
+              485,
+              614,
+              307,
+              614
+            ],
+            "spans": [
+              {
+                "offset": 222,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "RG6 1WG",
+            "polygon": [
+              308,
+              666,
+              502,
+              667,
+              502,
+              706,
+              308,
+              706
+            ],
+            "spans": [
+              {
+                "offset": 232,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "Bank Details:",
+            "polygon": [
+              1405,
+              645,
+              1604,
+              645,
+              1604,
+              678,
+              1405,
+              678
+            ],
+            "spans": [
+              {
+                "offset": 240,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "BARCLAYS PLC, 1 Churchill place, London, E14 5HP",
+            "polygon": [
+              1404,
+              695,
+              2187,
+              694,
+              2187,
+              732,
+              1404,
+              733
+            ],
+            "spans": [
+              {
+                "offset": 254,
+                "length": 48
+              }
+            ]
+          },
+          {
+            "content": "Account Name:",
+            "polygon": [
+              1403,
+              764,
+              1633,
+              765,
+              1633,
+              797,
+              1403,
+              796
+            ],
+            "spans": [
+              {
+                "offset": 303,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "The Contoso Company Ltd",
+            "polygon": [
+              1707,
+              762,
+              2100,
+              763,
+              2100,
+              799,
+              1707,
+              798
+            ],
+            "spans": [
+              {
+                "offset": 317,
+                "length": 23
+              }
+            ]
+          },
+          {
+            "content": "Sort Code:",
+            "polygon": [
+              1403,
+              811,
+              1565,
+              812,
+              1565,
+              844,
+              1403,
+              844
+            ],
+            "spans": [
+              {
+                "offset": 341,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "20-20-15",
+            "polygon": [
+              1710,
+              809,
+              1843,
+              809,
+              1843,
+              841,
+              1710,
+              841
+            ],
+            "spans": [
+              {
+                "offset": 352,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Account No",
+            "polygon": [
+              1403,
+              859,
+              1576,
+              859,
+              1576,
+              891,
+              1403,
+              891
+            ],
+            "spans": [
+              {
+                "offset": 361,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "55555555",
+            "polygon": [
+              1708,
+              857,
+              1856,
+              857,
+              1856,
+              889,
+              1708,
+              889
+            ],
+            "spans": [
+              {
+                "offset": 372,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "BIC/SWIFT ID",
+            "polygon": [
+              1403,
+              906,
+              1615,
+              906,
+              1615,
+              940,
+              1403,
+              940
+            ],
+            "spans": [
+              {
+                "offset": 381,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "BUKBGB22",
+            "polygon": [
+              1709,
+              904,
+              1886,
+              904,
+              1886,
+              936,
+              1709,
+              935
+            ],
+            "spans": [
+              {
+                "offset": 394,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Client:",
+            "polygon": [
+              284,
+              961,
+              381,
+              962,
+              381,
+              994,
+              284,
+              994
+            ],
+            "spans": [
+              {
+                "offset": 403,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "MICROSOFT",
+            "polygon": [
+              569,
+              961,
+              772,
+              960,
+              772,
+              993,
+              569,
+              993
+            ],
+            "spans": [
+              {
+                "offset": 411,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "IBAN",
+            "polygon": [
+              1403,
+              954,
+              1483,
+              955,
+              1483,
+              985,
+              1402,
+              985
+            ],
+            "spans": [
+              {
+                "offset": 421,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "GB33BUKB20201555555555",
+            "polygon": [
+              1710,
+              953,
+              2140,
+              952,
+              2140,
+              986,
+              1710,
+              987
+            ],
+            "spans": [
+              {
+                "offset": 426,
+                "length": 22
+              }
+            ]
+          },
+          {
+            "content": "Campaign:",
+            "polygon": [
+              284,
+              1006,
+              449,
+              1007,
+              449,
+              1044,
+              284,
+              1043
+            ],
+            "spans": [
+              {
+                "offset": 449,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "987321",
+            "polygon": [
+              569,
+              1004,
+              678,
+              1004,
+              678,
+              1035,
+              569,
+              1035
+            ],
+            "spans": [
+              {
+                "offset": 459,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "To pay by credit/debit card please call the",
+            "polygon": [
+              1419,
+              1049,
+              2201,
+              1048,
+              2201,
+              1093,
+              1419,
+              1094
+            ],
+            "spans": [
+              {
+                "offset": 466,
+                "length": 43
+              }
+            ]
+          },
+          {
+            "content": "contact number below",
+            "polygon": [
+              1601,
+              1097,
+              2013,
+              1096,
+              2013,
+              1135,
+              1601,
+              1136
+            ],
+            "spans": [
+              {
+                "offset": 510,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "QTY DESCRIPTION",
+            "polygon": [
+              234,
+              1198,
+              566,
+              1198,
+              566,
+              1232,
+              234,
+              1232
+            ],
+            "spans": [
+              {
+                "offset": 531,
+                "length": 15
+              }
+            ]
+          },
+          {
+            "content": "Gross",
+            "polygon": [
+              1542,
+              1201,
+              1641,
+              1202,
+              1641,
+              1233,
+              1542,
+              1232
+            ],
+            "spans": [
+              {
+                "offset": 547,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "Discount",
+            "polygon": [
+              1756,
+              1200,
+              1902,
+              1201,
+              1902,
+              1233,
+              1756,
+              1232
+            ],
+            "spans": [
+              {
+                "offset": 553,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Net GBP",
+            "polygon": [
+              2013,
+              1201,
+              2155,
+              1200,
+              2155,
+              1232,
+              2013,
+              1232
+            ],
+            "spans": [
+              {
+                "offset": 562,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "1",
+            "polygon": [
+              259,
+              1266,
+              276,
+              1266,
+              276,
+              1292,
+              259,
+              1292
+            ],
+            "spans": [
+              {
+                "offset": 570,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "content": "MICROSOFT AND CONTONSO PARTNERSHIP PROMOTION",
+            "polygon": [
+              307,
+              1264,
+              1240,
+              1263,
+              1240,
+              1299,
+              307,
+              1300
+            ],
+            "spans": [
+              {
+                "offset": 572,
+                "length": 44
+              }
+            ]
+          },
+          {
+            "content": "98,765.00",
+            "polygon": [
+              1488,
+              1266,
+              1636,
+              1266,
+              1636,
+              1299,
+              1488,
+              1299
+            ],
+            "spans": [
+              {
+                "offset": 617,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "125.00",
+            "polygon": [
+              1806,
+              1267,
+              1906,
+              1267,
+              1906,
+              1297,
+              1806,
+              1297
+            ],
+            "spans": [
+              {
+                "offset": 627,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "98,640.00",
+            "polygon": [
+              2028,
+              1267,
+              2176,
+              1266,
+              2176,
+              1299,
+              2028,
+              1299
+            ],
+            "spans": [
+              {
+                "offset": 634,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "VIDEO",
+            "polygon": [
+              307,
+              1305,
+              413,
+              1305,
+              413,
+              1336,
+              307,
+              1336
+            ],
+            "spans": [
+              {
+                "offset": 644,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "PO 99881234",
+            "polygon": [
+              308,
+              1343,
+              512,
+              1344,
+              512,
+              1376,
+              308,
+              1376
+            ],
+            "spans": [
+              {
+                "offset": 650,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "content": "Agency Discount @ 0%",
+            "polygon": [
+              239,
+              2657,
+              593,
+              2656,
+              593,
+              2692,
+              240,
+              2693
+            ],
+            "spans": [
+              {
+                "offset": 662,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "0.00",
+            "polygon": [
+              1139,
+              2655,
+              1206,
+              2655,
+              1206,
+              2685,
+              1139,
+              2685
+            ],
+            "spans": [
+              {
+                "offset": 683,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "Net",
+            "polygon": [
+              1607,
+              2658,
+              1662,
+              2658,
+              1662,
+              2687,
+              1607,
+              2686
+            ],
+            "spans": [
+              {
+                "offset": 688,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "98,640.00",
+            "polygon": [
+              2006,
+              2656,
+              2152,
+              2656,
+              2152,
+              2690,
+              2006,
+              2690
+            ],
+            "spans": [
+              {
+                "offset": 692,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "Prepayment Discount @ 0%",
+            "polygon": [
+              241,
+              2701,
+              661,
+              2700,
+              661,
+              2736,
+              241,
+              2737
+            ],
+            "spans": [
+              {
+                "offset": 702,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "content": "0.00",
+            "polygon": [
+              1139,
+              2701,
+              1205,
+              2701,
+              1205,
+              2731,
+              1139,
+              2731
+            ],
+            "spans": [
+              {
+                "offset": 727,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "VAT@ 20%",
+            "polygon": [
+              1608,
+              2699,
+              1785,
+              2700,
+              1785,
+              2733,
+              1608,
+              2732
+            ],
+            "spans": [
+              {
+                "offset": 732,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "19,728.00",
+            "polygon": [
+              2009,
+              2701,
+              2152,
+              2701,
+              2152,
+              2734,
+              2009,
+              2734
+            ],
+            "spans": [
+              {
+                "offset": 741,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "Series Discount @ 0%",
+            "polygon": [
+              240,
+              2742,
+              577,
+              2743,
+              577,
+              2778,
+              240,
+              2777
+            ],
+            "spans": [
+              {
+                "offset": 751,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "0.00",
+            "polygon": [
+              1139,
+              2745,
+              1205,
+              2745,
+              1205,
+              2775,
+              1139,
+              2775
+            ],
+            "spans": [
+              {
+                "offset": 772,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "GBP TOTAL",
+            "polygon": [
+              1610,
+              2744,
+              1799,
+              2745,
+              1799,
+              2777,
+              1610,
+              2777
+            ],
+            "spans": [
+              {
+                "offset": 777,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "118,368.00",
+            "polygon": [
+              1993,
+              2745,
+              2152,
+              2744,
+              2152,
+              2777,
+              1993,
+              2778
+            ],
+            "spans": [
+              {
+                "offset": 787,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "Client Discount @ 0%",
+            "polygon": [
+              241,
+              2791,
+              566,
+              2791,
+              566,
+              2826,
+              241,
+              2826
+            ],
+            "spans": [
+              {
+                "offset": 798,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "0.00",
+            "polygon": [
+              1139,
+              2792,
+              1205,
+              2792,
+              1205,
+              2822,
+              1139,
+              2823
+            ],
+            "spans": [
+              {
+                "offset": 819,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "content": "GBP DISCOUNT TOTAL",
+            "polygon": [
+              506,
+              2850,
+              884,
+              2850,
+              884,
+              2884,
+              506,
+              2884
+            ],
+            "spans": [
+              {
+                "offset": 824,
+                "length": 18
+              }
+            ]
+          },
+          {
+            "content": "125.00",
+            "polygon": [
+              1106,
+              2853,
+              1203,
+              2853,
+              1203,
+              2883,
+              1106,
+              2882
+            ],
+            "spans": [
+              {
+                "offset": 843,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "VAT number GB012345678",
+            "polygon": [
+              1681,
+              2894,
+              2091,
+              2893,
+              2091,
+              2927,
+              1681,
+              2928
+            ],
+            "spans": [
+              {
+                "offset": 850,
+                "length": 22
+              }
+            ]
+          },
+          {
+            "content": "To pay by credit/debit card or for any payment queries please contact Credit Control on 020 1234 4567 or",
+            "polygon": [
+              249,
+              2972,
+              1920,
+              2971,
+              1920,
+              3010,
+              249,
+              3011
+            ],
+            "spans": [
+              {
+                "offset": 873,
+                "length": 104
+              }
+            ]
+          },
+          {
+            "content": "Page:",
+            "polygon": [
+              1982,
+              2975,
+              2072,
+              2975,
+              2072,
+              3008,
+              1982,
+              3007
+            ],
+            "spans": [
+              {
+                "offset": 978,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "1/1",
+            "polygon": [
+              2174,
+              2973,
+              2219,
+              2973,
+              2219,
+              3003,
+              2174,
+              3003
+            ],
+            "spans": [
+              {
+                "offset": 984,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "If paying by BACS, please email a remittance to: remitance@contoso.com",
+            "polygon": [
+              429,
+              3010,
+              1594,
+              3010,
+              1594,
+              3048,
+              429,
+              3049
+            ],
+            "spans": [
+              {
+                "offset": 988,
+                "length": 70
+              }
+            ]
+          },
+          {
+            "content": "TERMS OF PAYMENT: 30 days from date of invoice.",
+            "polygon": [
+              657,
+              3050,
+              1482,
+              3052,
+              1482,
+              3088,
+              657,
+              3087
+            ],
+            "spans": [
+              {
+                "offset": 1059,
+                "length": 47
+              }
+            ]
+          },
+          {
+            "content": "Registered in England No. 998800. Registered Office: The Contoso Company, 123 Oxford street, London W1D 2HZ",
+            "polygon": [
+              292,
+              3099,
+              1973,
+              3098,
+              1973,
+              3137,
+              292,
+              3138
+            ],
+            "spans": [
+              {
+                "offset": 1107,
+                "length": 107
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 1214
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "rowCount": 4,
+        "columnCount": 2,
+        "cells": [
+          {
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "NUMBER:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1585,
+                  364,
+                  1890,
+                  364,
+                  1890,
+                  416,
+                  1585,
+                  416
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 109,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "654123",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1890,
+                  364,
+                  2104,
+                  365,
+                  2104,
+                  416,
+                  1890,
+                  416
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 117,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "DATE:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1585,
+                  416,
+                  1890,
+                  416,
+                  1890,
+                  463,
+                  1585,
+                  464
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 144,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "15/01/2023",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1890,
+                  416,
+                  2104,
+                  416,
+                  2104,
+                  463,
+                  1890,
+                  463
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 150,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 0,
+            "content": "ACCOUNT NO:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1585,
+                  464,
+                  1890,
+                  463,
+                  1891,
+                  507,
+                  1585,
+                  507
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 180,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 1,
+            "content": "MSFT987",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1890,
+                  463,
+                  2104,
+                  463,
+                  2104,
+                  506,
+                  1891,
+                  507
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 192,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 0,
+            "content": "INTERNAL REF:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1585,
+                  507,
+                  1891,
+                  507,
+                  1891,
+                  553,
+                  1584,
+                  554
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 208,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 1,
+            "content": "",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1891,
+                  507,
+                  2104,
+                  506,
+                  2104,
+                  553,
+                  1891,
+                  553
+                ]
+              }
+            ],
+            "spans": []
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              1596,
+              368,
+              2105,
+              368,
+              2105,
+              548,
+              1596,
+              548
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 109,
+            "length": 14
+          },
+          {
+            "offset": 144,
+            "length": 16
+          },
+          {
+            "offset": 180,
+            "length": 19
+          },
+          {
+            "offset": 208,
+            "length": 13
+          }
+        ]
+      },
+      {
+        "rowCount": 5,
+        "columnCount": 2,
+        "cells": [
+          {
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "Account Name:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1391,
+                  750,
+                  1668,
+                  750,
+                  1669,
+                  804,
+                  1391,
+                  804
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 303,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "The Contoso Company Ltd",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1668,
+                  750,
+                  2171,
+                  750,
+                  2171,
+                  803,
+                  1669,
+                  804
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 317,
+                "length": 23
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "Sort Code:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1391,
+                  804,
+                  1669,
+                  804,
+                  1669,
+                  850,
+                  1390,
+                  850
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 341,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "20-20-15",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1669,
+                  804,
+                  2171,
+                  803,
+                  2171,
+                  849,
+                  1669,
+                  850
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 352,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 0,
+            "content": "Account No",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1390,
+                  850,
+                  1669,
+                  850,
+                  1669,
+                  897,
+                  1390,
+                  898
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 361,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 1,
+            "content": "55555555",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1669,
+                  850,
+                  2171,
+                  849,
+                  2171,
+                  897,
+                  1669,
+                  897
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 372,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 0,
+            "content": "BIC/SWIFT ID",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1390,
+                  898,
+                  1669,
+                  897,
+                  1669,
+                  945,
+                  1390,
+                  946
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 381,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 1,
+            "content": "BUKBGB22",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1669,
+                  897,
+                  2171,
+                  897,
+                  2171,
+                  945,
+                  1669,
+                  945
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 394,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 0,
+            "content": "IBAN",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1390,
+                  946,
+                  1669,
+                  945,
+                  1669,
+                  996,
+                  1389,
+                  996
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 421,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 1,
+            "content": "GB33BUKB20201555555555",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1669,
+                  945,
+                  2171,
+                  945,
+                  2171,
+                  997,
+                  1669,
+                  996
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 426,
+                "length": 22
+              }
+            ]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              1392,
+              748,
+              2195,
+              747,
+              2195,
+              1002,
+              1392,
+              1002
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 303,
+            "length": 99
+          },
+          {
+            "offset": 421,
+            "length": 27
+          }
+        ]
+      },
+      {
+        "rowCount": 2,
+        "columnCount": 2,
+        "cells": [
+          {
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "Client:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  268,
+                  947,
+                  507,
+                  948,
+                  507,
+                  999,
+                  268,
+                  999
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 403,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "MICROSOFT",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  507,
+                  948,
+                  782,
+                  948,
+                  781,
+                  998,
+                  507,
+                  999
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 411,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "Campaign:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  268,
+                  999,
+                  507,
+                  999,
+                  507,
+                  1049,
+                  268,
+                  1050
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 449,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "987321",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  507,
+                  999,
+                  781,
+                  998,
+                  781,
+                  1047,
+                  507,
+                  1049
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 459,
+                "length": 6
+              }
+            ]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              274,
+              954,
+              766,
+              954,
+              766,
+              1045,
+              274,
+              1045
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 403,
+            "length": 17
+          },
+          {
+            "offset": 449,
+            "length": 16
+          }
+        ]
+      },
+      {
+        "rowCount": 2,
+        "columnCount": 5,
+        "cells": [
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "QTY",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  217,
+                  1185,
+                  306,
+                  1185,
+                  304,
+                  1259,
+                  217,
+                  1259
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 531,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "DESCRIPTION",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  306,
+                  1185,
+                  1365,
+                  1185,
+                  1365,
+                  1259,
+                  304,
+                  1259
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 535,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 2,
+            "content": "Gross",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1365,
+                  1185,
+                  1701,
+                  1185,
+                  1701,
+                  1262,
+                  1365,
+                  1259
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 547,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 3,
+            "content": "Discount",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1701,
+                  1185,
+                  1961,
+                  1185,
+                  1961,
+                  1262,
+                  1701,
+                  1262
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 553,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 4,
+            "content": "Net GBP",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1961,
+                  1185,
+                  2222,
+                  1185,
+                  2222,
+                  1262,
+                  1961,
+                  1262
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 562,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "1",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  217,
+                  1259,
+                  304,
+                  1259,
+                  300,
+                  1377,
+                  217,
+                  1379
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 570,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "MICROSOFT AND CONTONSO PARTNERSHIP PROMOTION\nVIDEO\nPO 99881234",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  304,
+                  1259,
+                  1365,
+                  1259,
+                  1365,
+                  1375,
+                  300,
+                  1377
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 572,
+                "length": 44
+              },
+              {
+                "offset": 644,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 2,
+            "content": "98,765.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1365,
+                  1259,
+                  1701,
+                  1262,
+                  1701,
+                  1375,
+                  1365,
+                  1375
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 617,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 3,
+            "content": "125.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1701,
+                  1262,
+                  1961,
+                  1262,
+                  1963,
+                  1377,
+                  1701,
+                  1375
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 627,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 4,
+            "content": "98,640.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1961,
+                  1262,
+                  2222,
+                  1262,
+                  2220,
+                  1377,
+                  1963,
+                  1377
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 634,
+                "length": 9
+              }
+            ]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              228,
+              1194,
+              2245,
+              1173,
+              2246,
+              1361,
+              229,
+              1381
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 531,
+            "length": 85
+          },
+          {
+            "offset": 644,
+            "length": 17
+          },
+          {
+            "offset": 617,
+            "length": 26
+          }
+        ]
+      },
+      {
+        "rowCount": 5,
+        "columnCount": 2,
+        "cells": [
+          {
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "Agency Discount @ 0%",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  227,
+                  2645,
+                  993,
+                  2646,
+                  993,
+                  2694,
+                  227,
+                  2696
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 662,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "0.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  993,
+                  2646,
+                  1218,
+                  2646,
+                  1218,
+                  2694,
+                  993,
+                  2694
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 683,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "Prepayment Discount @ 0%",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  227,
+                  2696,
+                  993,
+                  2694,
+                  993,
+                  2737,
+                  227,
+                  2739
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 702,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "0.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  993,
+                  2694,
+                  1218,
+                  2694,
+                  1218,
+                  2737,
+                  993,
+                  2737
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 727,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 0,
+            "content": "Series Discount @ 0%",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  227,
+                  2739,
+                  993,
+                  2737,
+                  993,
+                  2782,
+                  227,
+                  2783
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 751,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 1,
+            "content": "0.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  993,
+                  2737,
+                  1218,
+                  2737,
+                  1218,
+                  2780,
+                  993,
+                  2782
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 772,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 0,
+            "content": "Client Discount @ 0%",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  227,
+                  2783,
+                  993,
+                  2782,
+                  993,
+                  2841,
+                  227,
+                  2841
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 798,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "rowIndex": 3,
+            "columnIndex": 1,
+            "content": "0.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  993,
+                  2782,
+                  1218,
+                  2780,
+                  1218,
+                  2841,
+                  993,
+                  2841
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 819,
+                "length": 4
+              }
+            ]
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 0,
+            "content": "GBP DISCOUNT TOTAL",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  227,
+                  2841,
+                  993,
+                  2841,
+                  994,
+                  2902,
+                  227,
+                  2903
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 824,
+                "length": 18
+              }
+            ]
+          },
+          {
+            "rowIndex": 4,
+            "columnIndex": 1,
+            "content": "125.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  993,
+                  2841,
+                  1218,
+                  2841,
+                  1219,
+                  2902,
+                  994,
+                  2902
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 843,
+                "length": 6
+              }
+            ]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              232,
+              2646,
+              1218,
+              2646,
+              1218,
+              2911,
+              232,
+              2910
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 662,
+            "length": 25
+          },
+          {
+            "offset": 702,
+            "length": 29
+          },
+          {
+            "offset": 751,
+            "length": 25
+          },
+          {
+            "offset": 798,
+            "length": 51
+          }
+        ]
+      },
+      {
+        "rowCount": 3,
+        "columnCount": 2,
+        "cells": [
+          {
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "Net",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1590,
+                  2646,
+                  1894,
+                  2647,
+                  1893,
+                  2694,
+                  1591,
+                  2692
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 688,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "98,640.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1894,
+                  2647,
+                  2194,
+                  2647,
+                  2194,
+                  2695,
+                  1893,
+                  2694
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 692,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "VAT@ 20%",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1591,
+                  2692,
+                  1893,
+                  2694,
+                  1893,
+                  2738,
+                  1591,
+                  2738
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 732,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "19,728.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1893,
+                  2694,
+                  2194,
+                  2695,
+                  2194,
+                  2739,
+                  1893,
+                  2738
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 741,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 0,
+            "content": "GBP TOTAL",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1591,
+                  2738,
+                  1893,
+                  2738,
+                  1893,
+                  2789,
+                  1591,
+                  2789
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 777,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 1,
+            "content": "118,368.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1893,
+                  2738,
+                  2194,
+                  2739,
+                  2193,
+                  2790,
+                  1893,
+                  2789
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 787,
+                "length": 10
+              }
+            ]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              1607,
+              2652,
+              2162,
+              2652,
+              2162,
+              2778,
+              1606,
+              2778
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 688,
+            "length": 13
+          },
+          {
+            "offset": 732,
+            "length": 18
+          },
+          {
+            "offset": 777,
+            "length": 20
+          }
+        ]
+      }
+    ],
+    "styles": [],
+    "documents": [
+      {
+        "docType": "invoice",
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0,
+              0,
+              2480,
+              0,
+              2480,
+              3506,
+              0,
+              3506
+            ]
+          }
+        ],
+        "fields": {
+          "CustomerAddress": {
+            "type": "address",
+            "content": "Thames Valley Park\nReading\nBerkshire\nRG6 1WG",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  307,
+                  480,
+                  684,
+                  482,
+                  683,
+                  709,
+                  306,
+                  707
+                ]
+              }
+            ],
+            "confidence": 0.888,
+            "spans": [
+              {
+                "offset": 161,
+                "length": 18
+              },
+              {
+                "offset": 200,
+                "length": 7
+              },
+              {
+                "offset": 222,
+                "length": 17
+              }
+            ],
+            "valueAddress": {
+              "road": "Thames Valley Park",
+              "postalCode": "RG6 1WG",
+              "city": "Reading",
+              "streetAddress": "Thames Valley Park",
+              "stateDistrict": "Berkshire"
+            }
+          },
+          "CustomerAddressRecipient": {
+            "type": "string",
+            "valueString": "MICROSOFT LTD\nMicrosoft UK Campus",
+            "content": "MICROSOFT LTD\nMicrosoft UK Campus",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  306,
+                  387,
+                  714,
+                  387,
+                  714,
+                  478,
+                  306,
+                  478
+                ]
+              }
+            ],
+            "confidence": 0.91,
+            "spans": [
+              {
+                "offset": 95,
+                "length": 13
+              },
+              {
+                "offset": 124,
+                "length": 19
+              }
+            ]
+          },
+          "CustomerId": {
+            "type": "string",
+            "valueString": "MSFT987",
+            "content": "MSFT987",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1933,
+                  471,
+                  2078,
+                  471,
+                  2078,
+                  503,
+                  1932,
+                  503
+                ]
+              }
+            ],
+            "confidence": 0.938,
+            "spans": [
+              {
+                "offset": 192,
+                "length": 7
+              }
+            ]
+          },
+          "CustomerName": {
+            "type": "string",
+            "valueString": "MICROSOFT",
+            "content": "MICROSOFT",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  569,
+                  961,
+                  772,
+                  960,
+                  772,
+                  994,
+                  569,
+                  994
+                ]
+              }
+            ],
+            "confidence": 0.569,
+            "spans": [
+              {
+                "offset": 411,
+                "length": 9
+              }
+            ]
+          },
+          "InvoiceDate": {
+            "type": "date",
+            "valueDate": "2023-01-15",
+            "content": "15/01/2023",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1933,
+                  425,
+                  2095,
+                  425,
+                  2095,
+                  457,
+                  1933,
+                  457
+                ]
+              }
+            ],
+            "confidence": 0.954,
+            "spans": [
+              {
+                "offset": 150,
+                "length": 10
+              }
+            ]
+          },
+          "InvoiceId": {
+            "type": "string",
+            "valueString": "654123",
+            "content": "654123",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1931,
+                  377,
+                  2042,
+                  377,
+                  2042,
+                  409,
+                  1931,
+                  409
+                ]
+              }
+            ],
+            "confidence": 0.954,
+            "spans": [
+              {
+                "offset": 117,
+                "length": 6
+              }
+            ]
+          },
+          "InvoiceTotal": {
+            "type": "currency",
+            "valueCurrency": {
+              "amount": 118368,
+              "currencyCode": "GBP"
+            },
+            "content": "118,368.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1993,
+                  2745,
+                  2153,
+                  2745,
+                  2153,
+                  2778,
+                  1993,
+                  2779
+                ]
+              }
+            ],
+            "confidence": 0.95,
+            "spans": [
+              {
+                "offset": 787,
+                "length": 10
+              }
+            ]
+          },
+          "Items": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 98640,
+                      "currencyCode": "GBP"
+                    },
+                    "content": "98,640.00",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          2028,
+                          1267,
+                          2176,
+                          1266,
+                          2176,
+                          1299,
+                          2028,
+                          1299
+                        ]
+                      }
+                    ],
+                    "confidence": 0.935,
+                    "spans": [
+                      {
+                        "offset": 634,
+                        "length": 9
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "MICROSOFT AND CONTONSO PARTNERSHIP PROMOTION\nVIDEO\nPO 99881234",
+                    "content": "MICROSOFT AND CONTONSO PARTNERSHIP PROMOTION\nVIDEO\nPO 99881234",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          307,
+                          1264,
+                          1240,
+                          1264,
+                          1240,
+                          1377,
+                          307,
+                          1377
+                        ]
+                      }
+                    ],
+                    "confidence": 0.679,
+                    "spans": [
+                      {
+                        "offset": 572,
+                        "length": 44
+                      },
+                      {
+                        "offset": 644,
+                        "length": 17
+                      }
+                    ]
+                  },
+                  "Quantity": {
+                    "type": "number",
+                    "valueNumber": 1,
+                    "content": "1",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          259,
+                          1267,
+                          277,
+                          1266,
+                          277,
+                          1292,
+                          259,
+                          1293
+                        ]
+                      }
+                    ],
+                    "confidence": 0.926,
+                    "spans": [
+                      {
+                        "offset": 570,
+                        "length": 1
+                      }
+                    ]
+                  },
+                  "UnitPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 98765,
+                      "currencyCode": "GBP"
+                    },
+                    "content": "98,765.00",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1488,
+                          1266,
+                          1636,
+                          1266,
+                          1636,
+                          1299,
+                          1488,
+                          1300
+                        ]
+                      }
+                    ],
+                    "confidence": 0.505,
+                    "spans": [
+                      {
+                        "offset": 617,
+                        "length": 9
+                      }
+                    ]
+                  }
+                },
+                "content": "1\nMICROSOFT AND CONTONSO PARTNERSHIP PROMOTION\n98,765.00\n125.00\n98,640.00\nVIDEO\nPO 99881234",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      259,
+                      1264,
+                      2176,
+                      1264,
+                      2176,
+                      1377,
+                      259,
+                      1377
+                    ]
+                  }
+                ],
+                "confidence": 0.817,
+                "spans": [
+                  {
+                    "offset": 570,
+                    "length": 91
+                  }
+                ]
+              }
+            ]
+          },
+          "PaymentDetails": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "IBAN": {
+                    "type": "string",
+                    "valueString": "GB33BUKB20201555555555",
+                    "content": "GB33BUKB20201555555555",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1710,
+                          954,
+                          2140,
+                          952,
+                          2140,
+                          986,
+                          1710,
+                          987
+                        ]
+                      }
+                    ],
+                    "confidence": 0.984,
+                    "spans": [
+                      {
+                        "offset": 426,
+                        "length": 22
+                      }
+                    ]
+                  },
+                  "SWIFT": {
+                    "type": "string",
+                    "valueString": "BUKBGB22",
+                    "content": "BUKBGB22",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1709,
+                          904,
+                          1886,
+                          904,
+                          1886,
+                          936,
+                          1709,
+                          936
+                        ]
+                      }
+                    ],
+                    "confidence": 0.989,
+                    "spans": [
+                      {
+                        "offset": 394,
+                        "length": 8
+                      }
+                    ]
+                  }
+                },
+                "confidence": 0.995
+              }
+            ]
+          },
+          "PaymentTerm": {
+            "type": "string",
+            "valueString": "30 days from date of invoice.",
+            "content": "30 days from date of invoice.",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1027,
+                  3051,
+                  1483,
+                  3051,
+                  1483,
+                  3088,
+                  1027,
+                  3088
+                ]
+              }
+            ],
+            "confidence": 0.89,
+            "spans": [
+              {
+                "offset": 1077,
+                "length": 29
+              }
+            ]
+          },
+          "PurchaseOrder": {
+            "type": "string",
+            "valueString": "99881234",
+            "content": "99881234",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  367,
+                  1343,
+                  512,
+                  1344,
+                  512,
+                  1377,
+                  366,
+                  1376
+                ]
+              }
+            ],
+            "confidence": 0.942,
+            "spans": [
+              {
+                "offset": 653,
+                "length": 8
+              }
+            ]
+          },
+          "RemittanceAddressRecipient": {
+            "type": "string",
+            "valueString": "The Contoso Company Ltd",
+            "content": "The Contoso Company Ltd",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1707,
+                  762,
+                  2101,
+                  763,
+                  2101,
+                  799,
+                  1707,
+                  798
+                ]
+              }
+            ],
+            "confidence": 0.799,
+            "spans": [
+              {
+                "offset": 317,
+                "length": 23
+              }
+            ]
+          },
+          "SubTotal": {
+            "type": "currency",
+            "valueCurrency": {
+              "amount": 98640,
+              "currencyCode": "GBP"
+            },
+            "content": "98,640.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  2006,
+                  2656,
+                  2153,
+                  2656,
+                  2153,
+                  2690,
+                  2006,
+                  2690
+                ]
+              }
+            ],
+            "confidence": 0.95,
+            "spans": [
+              {
+                "offset": 692,
+                "length": 9
+              }
+            ]
+          },
+          "TaxDetails": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 19728,
+                      "currencyCode": "GBP"
+                    },
+                    "content": "19,728.00",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          2009,
+                          2701,
+                          2152,
+                          2701,
+                          2152,
+                          2734,
+                          2009,
+                          2735
+                        ]
+                      }
+                    ],
+                    "confidence": 0.935,
+                    "spans": [
+                      {
+                        "offset": 741,
+                        "length": 9
+                      }
+                    ]
+                  },
+                  "Rate": {
+                    "type": "string",
+                    "valueString": "20%",
+                    "content": "20%",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          1718,
+                          2700,
+                          1786,
+                          2700,
+                          1786,
+                          2733,
+                          1718,
+                          2733
+                        ]
+                      }
+                    ],
+                    "confidence": 0.932,
+                    "spans": [
+                      {
+                        "offset": 737,
+                        "length": 3
+                      }
+                    ]
+                  }
+                },
+                "content": "VAT@ 20%\n19,728.00",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      1608,
+                      2699,
+                      2152,
+                      2699,
+                      2152,
+                      2735,
+                      1608,
+                      2735
+                    ]
+                  }
+                ],
+                "confidence": 0.898,
+                "spans": [
+                  {
+                    "offset": 732,
+                    "length": 18
+                  }
+                ]
+              }
+            ]
+          },
+          "TotalDiscount": {
+            "type": "currency",
+            "valueCurrency": {
+              "amount": 125,
+              "currencyCode": "GBP"
+            },
+            "content": "125.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1106,
+                  2853,
+                  1204,
+                  2853,
+                  1204,
+                  2883,
+                  1106,
+                  2883
+                ]
+              }
+            ],
+            "confidence": 0.553,
+            "spans": [
+              {
+                "offset": 843,
+                "length": 6
+              }
+            ]
+          },
+          "TotalTax": {
+            "type": "currency",
+            "valueCurrency": {
+              "amount": 19728,
+              "currencyCode": "GBP"
+            },
+            "content": "19,728.00",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  2009,
+                  2701,
+                  2152,
+                  2701,
+                  2152,
+                  2734,
+                  2009,
+                  2735
+                ]
+              }
+            ],
+            "confidence": 0.95,
+            "spans": [
+              {
+                "offset": 741,
+                "length": 9
+              }
+            ]
+          },
+          "VendorAddress": {
+            "type": "address",
+            "content": "123 OXFORD STREET, LONDON WID 2HZ, UK",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  257,
+                  235,
+                  1063,
+                  235,
+                  1063,
+                  264,
+                  257,
+                  264
+                ]
+              }
+            ],
+            "confidence": 0.873,
+            "spans": [
+              {
+                "offset": 57,
+                "length": 37
+              }
+            ],
+            "valueAddress": {
+              "houseNumber": "123",
+              "road": "OXFORD STREET",
+              "postalCode": "WID 2HZ",
+              "city": "LONDON",
+              "countryRegion": "UK",
+              "streetAddress": "123 OXFORD STREET"
+            }
+          },
+          "VendorAddressRecipient": {
+            "type": "string",
+            "valueString": "THE CONTOSO COMPANY | BRITAIN",
+            "content": "THE CONTOSO COMPANY | BRITAIN",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  254,
+                  198,
+                  1069,
+                  198,
+                  1069,
+                  227,
+                  254,
+                  227
+                ]
+              }
+            ],
+            "confidence": 0.556,
+            "spans": [
+              {
+                "offset": 27,
+                "length": 29
+              }
+            ]
+          },
+          "VendorName": {
+            "type": "string",
+            "valueString": "CONTOSO",
+            "content": "CONTOSO",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  242,
+                  93,
+                  1085,
+                  90,
+                  1085,
+                  189,
+                  242,
+                  187
+                ]
+              }
+            ],
+            "confidence": 0.947,
+            "spans": [
+              {
+                "offset": 11,
+                "length": 7
+              }
+            ]
+          },
+          "VendorTaxId": {
+            "type": "string",
+            "valueString": "GB012345678",
+            "content": "GB012345678",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  1880,
+                  2894,
+                  2091,
+                  2893,
+                  2091,
+                  2927,
+                  1880,
+                  2928
+                ]
+              }
+            ],
+            "confidence": 0.94,
+            "spans": [
+              {
+                "offset": 861,
+                "length": 11
+              }
+            ]
+          }
+        },
+        "confidence": 1,
+        "spans": [
+          {
+            "offset": 0,
+            "length": 1214
+          }
+        ]
+      }
+    ],
+    "contentFormat": "text"
+  }
+}
