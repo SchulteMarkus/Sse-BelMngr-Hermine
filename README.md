@@ -27,7 +27,6 @@ sequenceDiagram
 # Table of contents
 
 * [🚀 Key Features](#-key-features)
-* [Key Components](#key-components)
     * [Supported File Types](#supported-file-types)
     * [Advanced Features](#advanced-features)
 * [🛠️ Installation](#-installation)
@@ -68,10 +67,6 @@ sequenceDiagram
 - **Robust Logging**  
   Configurable logging levels—from detailed debug logs to concise summaries.
 
----
-
-## Key Components
-
 ### Supported File Types
 
 - **Input Files**: `jpg`, `pdf`, `png`, `tif`, `tiff`
@@ -100,7 +95,7 @@ sequenceDiagram
 2. **Install Application**
 
 ```shell script
-go install github.com/sse-belmngr-hermine@latest
+go install github.com/SchulteMarkus/sse-belmngr-hermine@latest
 ```
 
 ## 🌟 Usage
