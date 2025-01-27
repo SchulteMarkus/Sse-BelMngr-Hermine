@@ -43,9 +43,9 @@ sequenceDiagram
 * [🛡️ Error Handling](#-error-handling)
 * [🖥️ Project Structure](#-project-structure)
 * [📚 Dependencies](#-dependencies)
-* [Disclaimer](#-disclaimer)
+* [📜 Disclaimer](#-disclaimer)
 * [💬 Feedback](#-feedback)
-* [Project Name Inspiration](#project-name-inspiration)
+* [🎨 Project Name Inspiration](#-project-name-inspiration)
 
 ---
 
@@ -69,7 +69,7 @@ sequenceDiagram
 
 ### Supported File Types
 
-- **Input Files**: `jpg`, `pdf`, `png`, `tif`, `tiff`
+- **Input Files**: `jpg`, `pdf`, `png`, `tif`, `tiff`.
 - **Document Intelligence Compatible Types**: Includes additional types like `jfif`, `jp(e)g`, and
   more.
 
@@ -113,9 +113,9 @@ sse-belmngr-hermine --di-key <Azure_AI_key> --di-endpoint <Azure_AI_endpoint>
 | `--config`                       | `-c`      | Path to the configuration file (optional).                                                                                              | No       | *None*                                                                                        |
 | `--di-key`                       |           | Azure Document Intelligence API key. Use this to authenticate against Azure services.                                                   | Yes      | *None*                                                                                        |
 | `--di-endpoint`                  |           | Azure Document Intelligence endpoint URL.                                                                                               | Yes      | *None*                                                                                        |
-| `--files-to-import-glob`         | `-f`      | Glob pattern to locate the input document files (supports wildcards). Defaults to user documents directory under `BelegManager-Import`. | No       | C:/Users/<your-user-name>/Documents/Documents/BelegManager-Import/**/*.{jpg,pdf,png,tif,tiff} |
-| `--beleg-manager-data-directory` |           | Specify the root directory for BelegManager data (default: the `Documents/BelegManager-Daten` folder in the user's home directory).     | No       | C:/Users/<your-user-name>/Documents/BelegManager-Daten                                        |
-| `--log-level`                    | `-l`      | Specify the logging level (trace, debug, info, warn, error, fatal, panic). Defaults to `info`.                                          | No       | `info`                                       ~~~~                                             |
+| `--files-to-import-glob`         | `-f`      | Glob pattern to locate the input document files (supports wildcards). Defaults to user documents directory under `BelegManager-Import`. | No       | C:/Users/`your-user-name`/Documents/Documents/BelegManager-Import/**/*.{jpg,pdf,png,tif,tiff} |
+| `--beleg-manager-data-directory` |           | Specify the root directory for BelegManager data (default: the `Documents/BelegManager-Daten` folder in the user's home directory).     | No       | C:/Users/`your-user-name`/Documents/BelegManager-Daten                                        |
+| `--log-level`                    | `-l`      | Specify the logging level (trace, debug, info, warn, error, fatal, panic). Defaults to `info`.                                          | No       | info                                                                                          |
 
 ---
 
@@ -200,7 +200,8 @@ C:\Users\<your-user-name>\Documents\BelegManager-Import\cafe2.pdf,  77, Caffè f
 ## 🖥️ Project Structure
 
 - [cli](cli): Houses CLI logic such as flag handling and command execution.
-- [hermine](hermine): Contains the core functionality for document analysis and database interactions.
+- [hermine](hermine): Contains the core functionality for document analysis and database
+  interactions.
 
 ---
 
@@ -231,7 +232,7 @@ the [GitHub Issues Section](https://github.com/SchulteMarkus/Sse-BelMngr-Hermine
 
 --- 
 
-## Project Name Inspiration
+## 🎨 Project Name Inspiration
 
 Project name "Hermine" is inspired by the resourceful and knowledgeable character
 [Hermione Granger](https://en.wikipedia.org/wiki/Hermione_Granger) from the Harry
