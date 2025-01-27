@@ -4,6 +4,7 @@
 [![Build](https://github.com/SchulteMarkus/Sse-BelMngr-Hermine/actions/workflows/build.yml/badge.svg)](https://github.com/SchulteMarkus/Sse-BelMngr-Hermine/actions/workflows/build.yml)
 [![Test](https://github.com/SchulteMarkus/Sse-BelMngr-Hermine/actions/workflows/test.yml/badge.svg)](https://github.com/SchulteMarkus/Sse-BelMngr-Hermine/actions/workflows/test.yml)
 [![Lint](https://github.com/SchulteMarkus/Sse-BelMngr-Hermine/actions/workflows/lint.yml/badge.svg)](https://github.com/SchulteMarkus/Sse-BelMngr-Hermine/actions/workflows/lint.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=SchulteMarkus_Sse-BelMngr-Hermine&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=SchulteMarkus_Sse-BelMngr-Hermine)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=SchulteMarkus_Sse-BelMngr-Hermine&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=SchulteMarkus_Sse-BelMngr-Hermine)
 
 # SteuerSparErklärung BelegManger Invoice Importer "Hermine"
@@ -42,10 +43,8 @@ sequenceDiagram
 * [🛡️ Error Handling](#-error-handling)
 * [🖥️ Project Structure](#-project-structure)
 * [📚 Dependencies](#-dependencies)
-* [📜 License](#-license)
-* [Disclaimer](#disclaimer)
+* [Disclaimer](#-disclaimer)
 * [💬 Feedback](#-feedback)
-* [Additional Resources](#additional-resources)
 * [Project Name Inspiration](#project-name-inspiration)
 
 ---
@@ -95,7 +94,7 @@ sequenceDiagram
 
 2. **Install Application**
 
-```shell script
+```shell
 go install github.com/SchulteMarkus/sse-belmngr-hermine@latest
 ```
 
@@ -103,20 +102,20 @@ go install github.com/SchulteMarkus/sse-belmngr-hermine@latest
 
 ### Command-Line Quickstart
 
-```shell script
+```shell
 sse-belmngr-hermine --di-key <Azure_AI_key> --di-endpoint <Azure_AI_endpoint>
 ```
 
 ### Command-Line Flags
 
-| Flag                             | Shorthand | Description                                                                                                                             | Required | Default Value                                             |
-|----------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------|----------|:----------------------------------------------------------|
-| `--config`                       | `-c`      | Path to the configuration file (optional).                                                                                              | No       | *None*                                                    |
-| `--di-key`                       |           | Azure Document Intelligence API key. Use this to authenticate against Azure services.                                                   | Yes      | *None*                                                    |
-| `--di-endpoint`                  |           | Azure Document Intelligence endpoint URL.                                                                                               | Yes      | *None*                                                    |
-| `--files-to-import-glob`         | `-f`      | Glob pattern to locate the input document files (supports wildcards). Defaults to user documents directory under `BelegManager-Import`. | No       | Documents/BelegManager-Import/**/*.{jpg,pdf,png,tif,tiff} |
-| `--beleg-manager-data-directory` |           | Specify the root directory for BelegManager data (default: the `Documents/BelegManager-Daten` folder in the user's home directory).     | No       | Documents/BelegManager-Daten                              |
-| `--log-level`                    | `-l`      | Specify the logging level (trace, debug, info, warn, error, fatal, panic). Defaults to `info`.                                          | No       | `info`                                       ~~~~         |
+| Flag                             | Shorthand | Description                                                                                                                             | Required | Default Value                                                                                 |
+|----------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------|----------|:----------------------------------------------------------------------------------------------|
+| `--config`                       | `-c`      | Path to the configuration file (optional).                                                                                              | No       | *None*                                                                                        |
+| `--di-key`                       |           | Azure Document Intelligence API key. Use this to authenticate against Azure services.                                                   | Yes      | *None*                                                                                        |
+| `--di-endpoint`                  |           | Azure Document Intelligence endpoint URL.                                                                                               | Yes      | *None*                                                                                        |
+| `--files-to-import-glob`         | `-f`      | Glob pattern to locate the input document files (supports wildcards). Defaults to user documents directory under `BelegManager-Import`. | No       | C:/Users/<your-user-name>/Documents/Documents/BelegManager-Import/**/*.{jpg,pdf,png,tif,tiff} |
+| `--beleg-manager-data-directory` |           | Specify the root directory for BelegManager data (default: the `Documents/BelegManager-Daten` folder in the user's home directory).     | No       | C:/Users/<your-user-name>/Documents/BelegManager-Daten                                        |
+| `--log-level`                    | `-l`      | Specify the logging level (trace, debug, info, warn, error, fatal, panic). Defaults to `info`.                                          | No       | `info`                                       ~~~~                                             |
 
 ---
 
@@ -134,7 +133,7 @@ log-level: "debug"
 
 Then run:
 
-```shell script
+```shell
 sse-belmngr-hermine -c config.yaml
 ```
 
@@ -163,13 +162,16 @@ sse-belmngr-hermine -c config.yaml
 
 ### Example Run
 
-```shell script
+```shell
 sse-belmngr-hermine run \
   --files-to-import-glob "~/Documents/BelegManager-Import/**/*.pdf" \
   --beleg-manager-data-directory "~/Documents/BelegManager-Daten" \
   --di-key "<your-azure-ai-key>" \
   --di-endpoint "<your-azure-ai-endpoint>" \
-  --log-level "debug"
+
+INFO[09:55:21] New Beleg created  beleg_id=123  beleg_name="Caffè from somewhere" file_to_import_base_name="cafe1.pdf" file_to_import_full_path="C:\\Users\\<your-user-name>\\Documents\\BelegManager-Import\\cafe1.pdf"
+INFO[09:55:23] Beleg updated      beleg_id=77   beleg_name="Caffè from somewhere" file_to_import_base_name="cafe2.pdf" file_to_import_full_path="C:\\Users\\<your-user-name>\\Documents\\BelegManager-Import\\cafe2.pdf"
+INFO[09:55:23] Wrote CSV log file C:\Users\<your-user-name>\Documents\BelegManager-Daten\_import-log-20250127095523.csv 
 ```
 
 ### Outcome
@@ -177,8 +179,12 @@ sse-belmngr-hermine run \
 - Documents are imported and linked in BelegManager.
 - A CSV log file is generated with status and any encountered errors:
 
-```
-~/Documents/BelegManager-Daten/_import-log-<timestamp>.csv
+```shell
+cat ~/Documents/BelegManager-Daten/_import-log-<timestamp>.csv
+
+OriginalPath, BelegID, BelegName, BelegDate, InvoiceTotal, InvoiceTotalConfidence, VatRate
+C:\Users\<your-user-name>\Documents\BelegManager-Import\cafe1.pdf, 123, Caffè from somewhere, 2024-08-08, 12.00, 12.00, 0.84, 7.00
+C:\Users\<your-user-name>\Documents\BelegManager-Import\cafe2.pdf,  77, Caffè from somewhere, 2024-05-29, 12.00, 12.00, 0.84, 7.00
 ```
 
 ---
@@ -193,10 +199,8 @@ sse-belmngr-hermine run \
 
 ## 🖥️ Project Structure
 
-- **cli/**  
-  Houses CLI logic such as flag handling and command execution.
-- **hermine/**  
-  Contains the core functionality for document analysis and database interactions.
+- [cli](cli): Houses CLI logic such as flag handling and command execution.
+- [hermine](hermine): Contains the core functionality for document analysis and database interactions.
 
 ---
 
@@ -209,18 +213,12 @@ This application makes use of the following key libraries/packages:
 - [Logrus](https://github.com/sirupsen/logrus) for structured logging.
 - [sqlx](https://github.com/jmoiron/sqlx) for database querying.
 - [doublestar](https://github.com/bmatcuk/doublestar) for glob pattern matching.
-- Azure AI for Document Intelligence.
+- [Azure® AI Document Intelligence](https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence)
+  for document analysis.
 
 ---
 
-## 📜 License
-
-This project is released under the [GPLv3 License](./LICENSE).
-Please ensure you comply with this license when using the application.
-
----
-
-## Disclaimer
+## 📜 Disclaimer
 
 This software is currently in the test phase. No further liability is assumed. Use at your own risk.
 
@@ -230,13 +228,6 @@ This software is currently in the test phase. No further liability is assumed. U
 
 If you have any questions, issues, or suggestions, feel free to open an issue in
 the [GitHub Issues Section](https://github.com/SchulteMarkus/Sse-BelMngr-Hermine/issues).
-
---- 
-
-## Additional Resources
-
-- [Azure Document Intelligence Documentation](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/overview)
-- [SteuerSparErklärung BelegManager](https://www.steuertipps.de/steuererklaerung/software/steuer-spar-erklaerung)
 
 --- 
 

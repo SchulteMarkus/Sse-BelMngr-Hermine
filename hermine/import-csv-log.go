@@ -49,7 +49,7 @@ func writeToCsvLog(csvLogFile *os.File, pdds []*processingDoneData) {
 	csvLogFileWriter := csv.NewWriter(csvLogFile)
 	defer csvLogFileWriter.Flush()
 
-	csvHeaders := []string{"OriginalPath", "BelegID", "BelegName", "BelegDate", "BelegAmount", "DocGross", "DocGrossConfidence", "DocVat"}
+	csvHeaders := []string{"OriginalPath", "BelegID", "BelegName", "BelegDate", "InvoiceTotal", "InvoiceTotalConfidence", "VatRate"}
 	if writeHeadersErr := csvLogFileWriter.Write(csvHeaders); writeHeadersErr != nil {
 		log.WithError(writeHeadersErr).Warn("Failed to write CSV headers")
 	}
@@ -83,7 +83,6 @@ func diDocumentToCsvLog(d *diDocument) []string {
 	}
 
 	return []string{
-		convertFloatPointerToString(d.getGross()),
 		convertFloatPointerToString(d.getGrossConfidence()),
 		convertFloatPointerToString(d.getVat()),
 	}
