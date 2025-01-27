@@ -1,4 +1,4 @@
-module schulte.dev/sse-belmngr-hermine
+module github.com/SchulteMarkus/sse-belmngr-hermine
 
 go 1.23.4
 

@@ -1,12 +1,12 @@
 package cli
 
 import (
+	"github.com/SchulteMarkus/sse-belmngr-hermine/hermine"
 	"github.com/bmatcuk/doublestar/v4"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"os"
 	"path/filepath"
-	"schulte.dev/sse-belmngr-hermine/hermine"
 )
 
 var (

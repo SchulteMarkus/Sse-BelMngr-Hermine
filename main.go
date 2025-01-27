@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/SchulteMarkus/sse-belmngr-hermine/cli"
 	"os"
-	"schulte.dev/sse-belmngr-hermine/cli"
 )
 
 func main() {
