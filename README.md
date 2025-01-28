@@ -26,22 +26,24 @@ sequenceDiagram
     Hermine ->> BelegManager: Import documents
 ```
 
-# Table of contents
+---
+
+# Table Of Contents
 
 * [🚀 Key Features](#-key-features)
-    * [Supported File Types](#supported-file-types)
-    * [Advanced Features](#advanced-features)
-* [🛠️ Installation](#-installation)
+  * [Supported File Types](#supported-file-types)
+  * [Advanced Features](#advanced-features)
+* [🛠️ Installation](#%EF%B8%8F-installation)
 * [🌟 Usage](#-usage)
-    * [Command-Line Quickstart](#command-line-quickstart)
-    * [Command-Line Flags](#command-line-flags)
-* [⚙️ Configuration File](#-configuration-file)
+  * [Command-Line Quickstart](#command-line-quickstart)
+  * [Command-Line Flags](#command-line-flags)
+* [⚙️ Configuration File](#%EF%B8%8F-configuration-file)
 * [🎯 Workflow](#-workflow)
 * [📝 Examples](#-examples)
-    * [Example Run](#example-run)
-    * [Outcome](#outcome)
-* [🛡️ Error Handling](#-error-handling)
-* [🖥️ Project Structure](#-project-structure)
+  * [Example Run](#example-run)
+  * [Outcome](#outcome)
+* [🛡️ Error Handling](#%EF%B8%8F-error-handling)
+* [🖥️ Project Structure](#%EF%B8%8F-project-structure)
 * [📚 Dependencies](#-dependencies)
 * [📜 Disclaimer](#-disclaimer)
 * [💬 Feedback](#-feedback)
@@ -91,6 +93,8 @@ sequenceDiagram
 1. **Prerequisites**
     - Go (Golang) SDK 1.23 or later.
     - An Azure Cognitive Services account with Document Intelligence enabled.
+      - `DI_KEY` and `DI_ENDPOINT` available as described on 
+        [Azure Documentation 'Use Document Intelligence models' -> Prerequisites](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/how-to-guides/use-sdk-rest-api?view=doc-intel-4.0.0&tabs=windows&pivots=programming-language-rest-api#prerequisites).
 
 2. **Install Application**
 
